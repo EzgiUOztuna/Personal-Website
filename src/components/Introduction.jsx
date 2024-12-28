@@ -11,8 +11,8 @@ export default function Introduction() {
     };
 
     return (
-        <>
-            <div className={`background ${darkMode ? "dark" : ""}`}>
+        <div className={`app-container ${darkMode ? "dark" : ""}`}>
+            <div className="header">
                 <div className="darkMode">
                     <input
                         type="checkbox"
@@ -36,9 +36,17 @@ export default function Introduction() {
                     </button>
                 </div>
             </div>
-
-
-        </>
-
+            <div className="def-container">
+                <div className="paragraph">
+                    <p style={{ fontFamily: "inter", fontWeight: 400, fontSize: "1.87rem" }}>Hi! 👋</p>
+                    <p>I’m Almila. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!
+                    </p>
+                </div>
+                <div className="photo">
+                    <img src="Group 102.svg" />
+                </div>
+            </div>
+        </div>
     );
+
 }
