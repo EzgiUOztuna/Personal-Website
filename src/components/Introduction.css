@@ -74,6 +74,7 @@ label:active:after {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 700;
+    color: #777777;
 }
 
 .language {
@@ -84,4 +85,5 @@ label:active:after {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 700;
+    color: #777777;
 }
