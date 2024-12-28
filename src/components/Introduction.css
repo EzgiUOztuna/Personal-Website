@@ -1,9 +1,9 @@
 .app-container {
     /*hepsini kapsayan*/
-    width: 100%;
+    width: 100vw;
     height: auto;
     background: #f4f4f4;
-    position: absolute;
+    position: relative;
     transition: 0.3s;
     display: block;
 }
@@ -18,7 +18,7 @@
     justify-content: flex-end;
     height: 1.12rem;
     gap: 2rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-right: 9rem;
 }
 
@@ -96,7 +96,7 @@ label:active:after {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
     width: 69rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -110,4 +110,50 @@ label:active:after {
     font-family: "Inter", sans-serif;
     font-size: 2.62rem;
     font-weight: 500;
+    z-index: 10;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    padding-left: 5rem;
+    margin-left: 3.18rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.e-mail {
+    padding-left: 5rem;
+    margin-left: 3.18rem;
+    padding-bottom: 4rem;
+    padding-top: .5rem;
+    width: 33.75rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.ellipse-10 {
+    position: absolute;
+    left: 25rem;
+}
+
+.rectangle-2 {
+    position: absolute;
+    left: 6.7rem;
+    top: 13rem;
+}
+
+.rectangle-18 {
+    position: absolute;
+    left: 68.5rem;
+    top: 28rem;
+    height: 3.7rem;
+    width: 6.78rem;
+}
+
+.ellipse-11 {
+    position: absolute;
+    left: 54rem;
+    top: 35.5rem;
 }
