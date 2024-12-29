@@ -1,0 +1,104 @@
+.projects-container {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    transition: 0.3s;
+    display: block;
+}
+
+.projects-container.dark {
+    background-color: black;
+    color: white;
+}
+
+.projects-container h1 {
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.project-1 {
+    border: 1px solid #DDEEFE;
+    background-color: #DDEEFE;
+    border-radius: .5rem;
+    width: 27rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.project-1 h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.def-project1 {
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    width: 20.5rem;
+}
+
+.programs {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    justify-content: flex-start;
+}
+
+.react,
+.vercel,
+.axios,
+.router,
+.redux {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    font-family: "inter", serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+
+
+.project-2 {
+    border: 1px solid #D9F6F1;
+    background-color: #D9F6F1;
+    border-radius: .5rem;
+    width: 27rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.project-2 h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.def-project2 {
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    width: 20.5rem;
+}
