@@ -9,7 +9,6 @@ export default function Profile() {
         <>
             <div className={`profile-container ${darkMode ? "dark" : ""}`}>
                 <img className="ellipse-12" src="Ellipse 12.svg" />
-                <img className="rectangle-39" src="Rectangle 39.svg" />
                 <h3 className="header-3">Profile</h3>
                 <div className="info-cards">
                     <div className="basic-info-card">
@@ -21,7 +20,7 @@ export default function Profile() {
                     </div>
 
                     <div className="about-me">
-                        <h4>About me</h4>
+                        <h4>About me <img className="rectangle-39" src="Rectangle 39.svg" /></h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.</p>
                         <p>Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!</p>
                     </div>

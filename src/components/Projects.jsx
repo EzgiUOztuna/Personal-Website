@@ -43,19 +43,16 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="footer">
-                    <p>Let's work together on your next product.</p>
-                    <ul>
-                        <a href="https://github.com/EzgiUOztuna" target="_blank">
-                            <i style={{ color: "#1769FF", fontSize: "1.5rem", fontFamily: "inter" }}>Github</i></a>
-                        <i style={{ fontSize: "1.5rem", fontFamily: "inter" }}>Personal Blog</i>
-                        <a href="https://www.linkedin.com/in/ezgiuygun/" target="_blank">
-                            <i style={{ color: "#0077B5", fontSize: "1.5rem", fontFamily: "inter" }}>Linkedin</i></a>
-                        <a href="mailto:ezgiuygn@gmail.com" target="_blank">
-                            <i style={{ color: "#AF0C48", fontSize: "1.5rem", fontFamily: "inter" }}>Email</i></a>
 
+                    <p>Let's work together on your next product.<img className="rectangle-40" src="Rectangle 40.svg" /></p>
+                    <ul>
+                        <a style={{ color: "#1769FF" }} href="https://github.com/EzgiUOztuna" target="_blank">Github</a>
+                        <a>Personal Blog</a>
+                        <a style={{ color: "#0077B5" }} href="https://www.linkedin.com/in/ezgiuygun/" target="_blank">Linkedin</a>
+                        <a style={{ color: "#AF0C48" }} href="mailto:ezgiuygn@gmail.com" target="_blank">Email</a>
                     </ul>
                 </div >
-                <img className="rectangle-40" src="Rectangle 40.svg" />
+
             </div >
         </>
     )
