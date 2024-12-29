@@ -1,14 +1,11 @@
+import { DarkModeContext } from "../contexts/DarkModeContext";
+import { LanguageContext } from "../contexts/LanguageContext";
 import "./Introduction.css";
-import { useState } from "react";
+import { useContext } from "react";
 
 export default function Introduction() {
-    const [darkMode, setDarkMode] = useState(false);
-    const [language, setLanguage] = useState("en");
-
-    const handleDarkModeChange = () => setDarkMode(!darkMode);
-    const toggleLanguage = () => {
-        setLanguage(language === "en" ? "tr" : "en")
-    };
+    const { darkMode, handleDarkModeChange } = useContext(DarkModeContext);
+    const { language, toggleLanguage } = useContext(LanguageContext)
 
     return (
         <>
@@ -63,8 +60,6 @@ export default function Introduction() {
                     Currently <span style={{ color: "#AF0C48" }}>Freelancing</span> for <span style={{ color: "#AF0C48" }}>UX, UI, & Web Design</span> Projects. Invite me to join your team ->
                     <a style={{ color: "#AF0C48", textDecoration: "underline" }} href="mailto:ezgiuygn@gmail.com" target="_blank"> ezgiuygn@gmail.com</a>
                 </p>
-
-
             </div>
         </>
     );

@@ -1,0 +1,97 @@
+.profile-container {
+    width: 100vw;
+    height: auto;
+    background: #f4f4f4;
+    position: relative;
+    transition: 0.3s;
+    display: block;
+}
+
+.profile-container.dark {
+    background-color: black;
+    color: white;
+}
+
+.header-3 {
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 5rem;
+}
+
+.basic-info-card {
+    border: 1px solid white;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: .5rem .5rem rgba(82, 82, 82, 0.5);
+    width: 30rem;
+    padding: 2rem;
+}
+
+.basic-info-card h4 {
+    font-family: "Playfair Display", serif;
+    color: #ea2678;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.basic-info-card p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0.5rem 0;
+    font-family: "inter", sans-serif;
+    font-size: 1.12rem;
+}
+
+.label {
+    font-weight: 600;
+    min-width: 10rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+
+.about-me {
+    width: 27.5rem;
+    line-height: 2rem;
+}
+
+.about-me h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    position: relative;
+}
+
+.about-me p {
+    font-family: "inter", sans-serif;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+.ellipse-12 {
+    position: absolute;
+    left: 70.4rem;
+    top: -2rem;
+}
+
+.rectangle-39 {
+    position: absolute;
+    top: 10.5rem;
+    left: 39.8rem;
+
+}

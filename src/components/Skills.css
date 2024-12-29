@@ -1,0 +1,33 @@
+.skills-container {
+    /*hepsini kapsayan*/
+    width: 100vw;
+    height: 28rem;
+    position: relative;
+    transition: 0.3s;
+    display: block;
+}
+
+.skills-container.dark {
+    background-color: black;
+    color: white;
+}
+
+.skills-header {
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.skills {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    width: 50rem;
+}
+
+.rectangle-22 {
+    position: absolute;
+    top: 22rem;
+}
