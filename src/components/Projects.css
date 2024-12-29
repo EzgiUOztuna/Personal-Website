@@ -19,11 +19,17 @@
     padding: 3rem 0;
 }
 
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .project-1 {
     border: 1px solid #DDEEFE;
     background-color: #DDEEFE;
     border-radius: .5rem;
     width: 27rem;
+    height: 42rem;
     padding: 2rem;
     margin-bottom: 5rem;
     position: relative;
@@ -42,6 +48,12 @@
     font-size: 1rem;
     padding-bottom: 1rem;
     width: 20.5rem;
+}
+
+.group-104 {
+    position: absolute;
+    top: 28.85rem;
+    left: 0;
 }
 
 .programs {
@@ -83,6 +95,7 @@
     background-color: #D9F6F1;
     border-radius: .5rem;
     width: 27rem;
+    height: 42rem;
     padding: 2rem;
     margin-bottom: 5rem;
     position: relative;
@@ -101,4 +114,36 @@
     font-size: 1rem;
     padding-bottom: 1rem;
     width: 20.5rem;
+}
+
+.group-103 {
+    position: absolute;
+    top: 28.85rem;
+    left: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 8rem;
+}
+
+.footer p {
+    font-family: "inter", serif;
+    font-weight: 500;
+    font-size: 2.6rem;
+    width: 28rem;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.rectangle-40 {
+    position: absolute;
+    bottom: 13.2rem;
+    left: 28.4rem;
+    width: 14rem;
+    z-index: 1;
 }
