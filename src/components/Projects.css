@@ -22,6 +22,7 @@
 .projects {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 5rem;
 }
 
 .project-1 {
@@ -138,6 +139,11 @@
     text-align: right;
     position: relative;
     z-index: 2;
+}
+
+.footer i {
+    display: flex;
+    flex-direction: column;
 }
 
 .rectangle-40 {

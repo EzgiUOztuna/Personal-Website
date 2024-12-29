@@ -45,12 +45,15 @@ export default function Projects() {
                 <div className="footer">
                     <p>Let's work together on your next product.</p>
                     <ul>
-                        <button style={{ color: "#1769FF", fontSize: "1.5rem", fontFamily: "inter", display: "flex", flexDirection: "column" }}>Github</button>
-                        <button style={{ fontSize: "1.5rem", fontFamily: "inter", display: "flex", flexDirection: "column" }}>Personal Blog</button>
-                        <button style={{ color: "#0077B5", fontSize: "1.5rem", fontFamily: "inter", display: "flex", flexDirection: "column" }}>Linkedin</button>
-                        <button style={{ color: "#AF0C48", fontSize: "1.5rem", fontFamily: "inter", display: "flex", flexDirection: "column" }}>Email</button>
-                    </ul>
+                        <a href="https://github.com/EzgiUOztuna" target="_blank">
+                            <i style={{ color: "#1769FF", fontSize: "1.5rem", fontFamily: "inter" }}>Github</i></a>
+                        <i style={{ fontSize: "1.5rem", fontFamily: "inter" }}>Personal Blog</i>
+                        <a href="https://www.linkedin.com/in/ezgiuygun/" target="_blank">
+                            <i style={{ color: "#0077B5", fontSize: "1.5rem", fontFamily: "inter" }}>Linkedin</i></a>
+                        <a href="mailto:ezgiuygn@gmail.com" target="_blank">
+                            <i style={{ color: "#AF0C48", fontSize: "1.5rem", fontFamily: "inter" }}>Email</i></a>
 
+                    </ul>
                 </div >
                 <img className="rectangle-40" src="Rectangle 40.svg" />
             </div >
