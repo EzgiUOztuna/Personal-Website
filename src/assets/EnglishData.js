@@ -3,7 +3,7 @@ export const englishWords = {
     translate: "TRANSLATE TO <span style='color: #e92577;'>ENGLISH</span>",
     title: "Hi! 👋",
     definition: "I’m Ezgi. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
-    email: `Currently <span style="color: #AF0C48">Freelancing</span> for <span style="color: #AF0C48">UX, UI, & Web Design</span> Projects. Invite me to join your team -> <a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
+    email: `Currently <span style="color: #AF0C48">Freelancing</span> for <span style="color: #AF0C48">UX, UI, & Web Design</span> Projects. Invite me to join your team <span>&#8594;</span> <a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
     socialMedia: [
         {
             platform: "Linkedin",
@@ -44,7 +44,7 @@ export const englishWords = {
             title: "WITFLIX_Wiframe Project",
             definition: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
-            appLink: "https://pizza-project-s8.vercel.app",
+            appLink: "",
             imageUrl: "Group 104.svg",
         },
         {
@@ -55,5 +55,12 @@ export const englishWords = {
             imageUrl: "Group 103.svg",
         },
     ],
+    viewGit: "View on Github",
+    goApp: "Go to app",
+    footerP: "Let's work together on your next product.",
+    githubUrl: "https://github.com/EzgiUOztuna",
+    personalBlogUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
+    emailUrl: "mailto:ezgiuygn@gmail.com",
 
 };

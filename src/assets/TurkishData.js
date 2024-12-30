@@ -3,7 +3,7 @@ export const turkishWords = {
     translate: "<span style='color: #e92577;'>TÜRKÇE</span>'YE ÇEVİR",
     title: "Merhaba! 👋",
     definition: "Ben Ezgi. Ben bir full-stack geliştiricisiyim. Sağlam ve ölçeklenebilir ön uç ürünler geliştirebilirim. Tanışalım!",
-    email: `Şu anda <span style="color: #AF0C48">Freelance</span> olarak <span style="color: #AF0C48">UX, UI ve Web Tasarımı</span> projeleri üzerinde çalışıyorum. Beni ekibinize davet edin -><a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
+    email: `Şu anda <span style="color: #AF0C48">Freelance</span> olarak <span style="color: #AF0C48">UX, UI ve Web Tasarımı</span> projeleri üzerinde çalışıyorum. Beni ekibinize davet edin <span>&#8594;</span> <a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
     socialMedia: [
         {
             platform: "Linkedin",
@@ -44,7 +44,7 @@ export const turkishWords = {
             title: "WITFLIX_Wiframe Projesi",
             definition: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
-            appLink: "https://pizza-project-s8.vercel.app",
+            appLink: "",
             imageUrl: "Group 104.svg",
         },
         {
@@ -55,4 +55,11 @@ export const turkishWords = {
             imageUrl: "Group 103.svg",
         },
     ],
+    viewGit: "Github'da Görüntüle",
+    goApp: "Uygulamaya Git",
+    footerP: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+    githubUrl: "https://github.com/EzgiUOztuna",
+    personalBlogUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
+    emailUrl: "mailto:ezgiuygn@gmail.com",
 };

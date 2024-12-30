@@ -25,27 +25,27 @@ export default function Projects() {
                                 <p className="router">router</p>
                             </div>
                             <div className="buttons">
-                                <a href="project.githubLink" target="_blank">
-                                    <button className="view-git">View on Github</button></a>
-                                {item.appLink && (
-                                    <a href="project.appLink" target="_blank">
-                                        <button className="go-app">Go to app  <span>&#8594;</span></button></a>)}
+                                <a href={item.githubLink} target="_blank">
+                                    <button className="view-git">{words.viewGit}</button></a>
+
+                                <a href={item.appLink} target="_blank">
+                                    <button className="go-app">{words.goApp}<span>&#8594;</span></button></a>
                             </div>
                             <img className="images" src={item.imageUrl} />
                         </div>
                     ))}
                 </div>
+                <div className="footer">
+                    <p>{words.footerP}<img className="rectangle-40" src="Rectangle 40.svg" /></p>
+                    <ul>
+                        <a style={{ color: "#1769FF" }} href={words.githubUrl} target="_blank">Github</a>
+                        <a href={words.personalBlogUrl} target="_blank">Personal Blog</a>
+                        <a style={{ color: "#0077B5" }} href={words.linkedinUrl} target="_blank">Linkedin</a>
+                        <a style={{ color: "#AF0C48" }} href={words.emailUrl} target="_blank">Email</a>
+                    </ul>
+                </div >
             </div>
-            <div className="footer">
 
-                <p>Let's work together on your next product.<img className="rectangle-40" src="Rectangle 40.svg" /></p>
-                <ul>
-                    <a style={{ color: "#1769FF" }} href="https://github.com/EzgiUOztuna" target="_blank">Github</a>
-                    <a>Personal Blog</a>
-                    <a style={{ color: "#0077B5" }} href="https://www.linkedin.com/in/ezgiuygun/" target="_blank">Linkedin</a>
-                    <a style={{ color: "#AF0C48" }} href="mailto:ezgiuygn@gmail.com" target="_blank">Email</a>
-                </ul>
-            </div >
         </>
     )
 }
