@@ -1,5 +1,4 @@
-.app-container {
-    /*hepsini kapsayan*/
+/*.app-container {
     width: 100vw;
     height: auto;
     background: #f4f4f4;
@@ -8,7 +7,7 @@
     position: relative;
     padding: 0;
     margin: 0;
-}
+}*/
 
 .ellipse-10 {
     position: absolute;
@@ -28,10 +27,11 @@
     z-index: 1;
 }
 
+/*
 .app-container.dark {
     background-color: black;
     color: white;
-}
+}*/
 
 .header {
     display: flex;
@@ -112,14 +112,14 @@ label:active:after {
     color: #777777;
 }
 
-
+/*
 .def-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 5rem;
     gap: 3rem;
-}
+}*/
 
 .paragraph {
     position: relative;

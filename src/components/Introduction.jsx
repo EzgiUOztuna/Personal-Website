@@ -13,7 +13,7 @@ export default function Introduction() {
 
     return (
         <>
-            <div className={`app-container ${darkMode ? "dark" : ""}`}>
+            <div className={`w-screen bg-gray-100 transition-all from-neutral-300 relative  ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
                 <img className="ellipse-10" src="Ellipse 10.svg" />
                 <img className="rectangle-18" src="Rectangle 18.svg" />
                 <img className="ellipse-11" src="Ellipse 11.svg" />

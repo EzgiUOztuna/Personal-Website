@@ -1,5 +1,4 @@
-.skills-container {
-    /*hepsini kapsayan*/
+/*.skills-container {
     width: 100vw;
     height: 28rem;
     position: relative;
@@ -11,7 +10,7 @@
     background-color: black;
     color: white;
 }
-
+*/
 .skills-header {
     text-align: center;
     font-family: "inter", sans-serif;

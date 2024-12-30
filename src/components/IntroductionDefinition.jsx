@@ -8,7 +8,7 @@ function IntroductionDefinition() {
     const { words } = useContext(LanguageContext);
 
     return (
-        <div className={`def-container ${darkMode ? "dark" : ""}`}>
+        <div className={`flex justify-center items-start pt-20 gap-12 ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
             <div className="paragraph">
                 <img className="rectangle-2" src="Rectangle 2.svg" />
                 <p>{words.title}</p>
