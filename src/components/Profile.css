@@ -95,8 +95,8 @@
 .about-me p {
     position: relative;
     font-family: "inter", sans-serif;
-    font-size: 1.12rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 1.5rem 0;
-
+    width: 30rem;
 }

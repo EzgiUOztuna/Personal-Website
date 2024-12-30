@@ -23,8 +23,7 @@ export default function Profile() {
 
                     <div className="about-me">
                         <h4>{words.aboutMe} <img className="rectangle-39" src="Rectangle 39.svg" /></h4>
-                        <p>{words.aboutMeParagraph1}</p>
-                        <p>{words.aboutMeParagraph2}</p>
+                        <p>{words.aboutMeParagraph}</p>
                     </div>
                 </div>
             </div>

@@ -18,11 +18,24 @@ export default function Projects() {
                             <h2>{item.title}</h2>
                             <p className={`def-project${index + 1}`}>{item.definition}</p>
                             <div className="programs">
-                                <p className="react">react</p>
-                                {item.title === "Pizza Project" && <p className="redux">redux</p>}
-                                <p className="vercel">vercel</p>
-                                <p className="axios">axios</p>
-                                <p className="router">router</p>
+                                {(item.title === "Pizza Project" || item.title === "Pizza Projesi") && (
+                                    <>
+                                        <p className="html">html</p>
+                                        <p className="css">css</p>
+                                        <p className="react">react</p>
+                                        <p className="vercel">vercel</p>
+                                        <p className="axios">axios</p>
+                                        <p className="router">router</p>
+                                    </>
+                                )}
+                                {(item.title === "WITFLIX_Wiframe Project" || item.title === "WITFLIX_Wiframe Projesi") && (
+                                    <>
+                                        <p className="html">html</p>
+                                        <p className="css">css</p>
+                                        <p className="vercel">vercel</p>
+                                    </>
+                                )}
+
                             </div>
                             <div className="buttons">
                                 <a href={item.githubLink} target="_blank">
