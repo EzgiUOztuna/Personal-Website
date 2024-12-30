@@ -16,4 +16,26 @@ export const englishWords = {
             iconClass: "fa-brands fa-github fa-xs",
         },
     ],
+    skills: "Skills",
+    profile: "Profile",
+    basicInformation: "Basic Information",
+    birthDate: {
+        label: "Birth Date:",
+        value: "28.03.1996",
+    },
+    city: {
+        label: "City:",
+        value: "Izmir",
+    },
+    education: {
+        label: "Education:",
+        value: "Dogus University, Electronics and Communication Engineering, 2020",
+    },
+    role: {
+        label: "Preferred Role:",
+        value: "Frontend, UI",
+    },
+    aboutMe: "About me",
+    aboutMeParagraph1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+    aboutMeParagraph2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
 };

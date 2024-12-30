@@ -3,7 +3,7 @@ import "./Introduction.css";
 import { DarkModeContext } from "../contexts/DarkModeContext";
 import { LanguageContext } from "../contexts/LanguageContext";
 import { englishWords } from "../assets/EnglishData";
-import { turkishWords } from "../assets/TurkishData"
+import { turkishWords } from "../assets/TurkishData";
 
 function IntroductionDefinition() {
     const { darkMode } = useContext(DarkModeContext);

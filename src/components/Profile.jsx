@@ -1,28 +1,34 @@
 import { useContext } from "react";
 import { DarkModeContext } from "../contexts/DarkModeContext";
 import "./Profile.css";
+import { LanguageContext } from "../contexts/LanguageContext";
+import { englishWords } from "../assets/EnglishData";
+import { turkishWords } from "../assets/TurkishData";
 
 export default function Profile() {
     const { darkMode } = useContext(DarkModeContext);
+    const { language } = useContext(LanguageContext)
+
+    const words = language === "en" ? englishWords : turkishWords;
 
     return (
         <>
             <div className={`profile-container ${darkMode ? "dark" : ""}`}>
                 <img className="ellipse-12" src="Ellipse 12.svg" />
-                <h3 className="header-3">Profile</h3>
+                <h3 className="header-3">{words.profile}</h3>
                 <div className="info-cards">
                     <div className="basic-info-card">
-                        <h4>Basic Information</h4>
-                        <p><span className="label">Birth Date:</span> 28.03.1996</p>
-                        <p><span className="label">City:</span> Izmir</p>
-                        <p><span className="label">Education:</span> Hacettepe Ünv. Biyoloji Lisans, 2016</p>
-                        <p><span className="label">Preferred Role:</span> Frontend, UI</p>
+                        <h4>{words.basicInformation}</h4>
+                        <p><span className="label">{words.birthDate.label}</span>{words.birthDate.value}</p>
+                        <p><span className="label">{words.city.label}</span>{words.city.value}</p>
+                        <p><span className="label">{words.education.label}</span>{words.education.value}</p>
+                        <p><span className="label">{words.role.label}</span>{words.role.value}</p>
                     </div>
 
                     <div className="about-me">
-                        <h4>About me <img className="rectangle-39" src="Rectangle 39.svg" /></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.</p>
-                        <p>Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!</p>
+                        <h4>{words.aboutMe} <img className="rectangle-39" src="Rectangle 39.svg" /></h4>
+                        <p>{words.aboutMeParagraph1}</p>
+                        <p>{words.aboutMeParagraph2}</p>
                     </div>
                 </div>
             </div>

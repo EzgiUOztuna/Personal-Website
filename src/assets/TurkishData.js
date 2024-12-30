@@ -16,4 +16,26 @@ export const turkishWords = {
             iconClass: "fa-brands fa-github fa-xs",
         },
     ],
+    skills: "Yetenekler",
+    profile: "Profil",
+    basicInformation: "Ana Bilgiler",
+    birthDate: {
+        label: "Doğum Tarihi:",
+        value: "28.03.1996",
+    },
+    city: {
+        label: "Yaşadığı Şehir:",
+        value: "İzmir",
+    },
+    education: {
+        label: "Eğitim Durumu:",
+        value: "Doğuş Üniversitesi, Elektronik ve Haberleşme Mühendisliği, 2020",
+    },
+    role: {
+        label: "Tercih Ettiği Rol:",
+        value: "Frontend, UI",
+    },
+    aboutMe: "Hakkımda",
+    aboutMeParagraph1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+    aboutMeParagraph2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
 };
