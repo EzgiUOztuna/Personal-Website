@@ -1,4 +1,3 @@
-import "./App.css";
 import Introduction from "./components/Introduction";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
