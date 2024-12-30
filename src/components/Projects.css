@@ -51,7 +51,7 @@
     width: 20.5rem;
 }
 
-.group-104 {
+.images {
     position: absolute;
     top: 28.85rem;
     left: 0;
@@ -117,11 +117,6 @@
     width: 20.5rem;
 }
 
-.group-103 {
-    position: absolute;
-    top: 28.85rem;
-    left: 0;
-}
 
 .footer {
     display: flex;

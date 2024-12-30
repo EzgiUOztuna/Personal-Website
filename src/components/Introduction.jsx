@@ -9,8 +9,7 @@ import { turkishWords } from "../assets/TurkishData";
 export default function Introduction() {
     const { darkMode, handleDarkModeChange } = useContext(DarkModeContext);
     const { language, toggleLanguage } = useContext(LanguageContext);
-    const words = language === "en" ? turkishWords : englishWords;
-
+    const word = language === "en" ? turkishWords : englishWords;
 
     return (
         <>
@@ -31,7 +30,7 @@ export default function Introduction() {
                     </div>
                     <div className="divider">|</div>
                     <div className="language">
-                        <button onClick={toggleLanguage} dangerouslySetInnerHTML={{ __html: words.translate }}>
+                        <button onClick={toggleLanguage} dangerouslySetInnerHTML={{ __html: word.translate }}>
                         </button>
                     </div>
                 </div>

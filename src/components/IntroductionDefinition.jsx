@@ -2,14 +2,10 @@ import { useContext } from "react";
 import "./Introduction.css";
 import { DarkModeContext } from "../contexts/DarkModeContext";
 import { LanguageContext } from "../contexts/LanguageContext";
-import { englishWords } from "../assets/EnglishData";
-import { turkishWords } from "../assets/TurkishData";
 
 function IntroductionDefinition() {
     const { darkMode } = useContext(DarkModeContext);
-    const { language } = useContext(LanguageContext)
-
-    const words = language === "en" ? englishWords : turkishWords;
+    const { words } = useContext(LanguageContext);
 
     return (
         <div className={`def-container ${darkMode ? "dark" : ""}`}>

@@ -2,14 +2,10 @@ import { useContext } from "react";
 import { DarkModeContext } from "../contexts/DarkModeContext";
 import "./Profile.css";
 import { LanguageContext } from "../contexts/LanguageContext";
-import { englishWords } from "../assets/EnglishData";
-import { turkishWords } from "../assets/TurkishData";
 
 export default function Profile() {
     const { darkMode } = useContext(DarkModeContext);
-    const { language } = useContext(LanguageContext)
-
-    const words = language === "en" ? englishWords : turkishWords;
+    const { words } = useContext(LanguageContext);
 
     return (
         <>

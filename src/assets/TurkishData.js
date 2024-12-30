@@ -38,4 +38,21 @@ export const turkishWords = {
     aboutMe: "Hakkımda",
     aboutMeParagraph1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
     aboutMeParagraph2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+    projects: "Projeler",
+    project: [
+        {
+            title: "WITFLIX_Wiframe Projesi",
+            definition: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
+            appLink: "https://pizza-project-s8.vercel.app",
+            imageUrl: "Group 104.svg",
+        },
+        {
+            title: "Pizza Projesi",
+            definition: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+            githubLink: "https://github.com/EzgiUOztuna/PizzaProject-s8",
+            appLink: "https://pizza-project-s8.vercel.app",
+            imageUrl: "Group 103.svg",
+        },
+    ],
 };
