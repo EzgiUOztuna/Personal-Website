@@ -39,7 +39,7 @@ export default function Projects() {
                     <p>{words.footerP}<img className="rectangle-40" src="Rectangle 40.svg" /></p>
                     <ul>
                         <a style={{ color: "#1769FF" }} href={words.githubUrl} target="_blank">Github</a>
-                        <a href={words.personalBlogUrl} target="_blank">Personal Blog</a>
+                        <a href={words.personalBlogUrl} target="_blank">{words.personalBlogTitle}</a>
                         <a style={{ color: "#0077B5" }} href={words.linkedinUrl} target="_blank">Linkedin</a>
                         <a style={{ color: "#AF0C48" }} href={words.emailUrl} target="_blank">Email</a>
                     </ul>

@@ -59,6 +59,7 @@ export const englishWords = {
     goApp: "Go to app",
     footerP: "Let's work together on your next product.",
     githubUrl: "https://github.com/EzgiUOztuna",
+    personalBlogTitle: "Personal Blog",
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
     emailUrl: "mailto:ezgiuygn@gmail.com",

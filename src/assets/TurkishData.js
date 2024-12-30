@@ -59,6 +59,7 @@ export const turkishWords = {
     goApp: "Uygulamaya Git",
     footerP: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
     githubUrl: "https://github.com/EzgiUOztuna",
+    personalBlogTitle: "Kişisel Blog",
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
