@@ -62,5 +62,7 @@ export const englishWords = {
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
+    witflixProjectTechnologies: ["html", "css", "vercel"],
+    pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
 
 };
