@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { DarkModeContext } from "../contexts/DarkModeContext";
-import "./Profile.css";
 import { LanguageContext } from "../contexts/LanguageContext";
 
 export default function Profile() {

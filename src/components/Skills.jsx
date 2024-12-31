@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { DarkModeContext } from "../contexts/DarkModeContext";
-import "./Skills.css";
 import { LanguageContext } from "../contexts/LanguageContext";
 
 export default function Skills() {
@@ -10,9 +9,9 @@ export default function Skills() {
 
     return (
         <div className={`w-screen h-112 relative transition-all block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
-            <img className="rectangle-22" src="Rectangle 22.svg" />
-            <h2 className="skills-header">{words.skills}</h2>
-            <img className="skills" src="skillBoxes.svg" />
+            <img className="absolute top-[20.5rem]" src="Rectangle 22.svg" />
+            <h2 className="text-center font-inter text-[2.7rem] font-medium py-12">{words.skills}</h2>
+            <img className="relative mx-auto pb-28 w-[50rem]" src="skillBoxes.svg" />
         </div>
     )
 }

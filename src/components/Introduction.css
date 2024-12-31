@@ -8,31 +8,32 @@
     padding: 0;
     margin: 0;
 }*/
-
+/*
 .ellipse-10 {
     position: absolute;
     left: 29.23%;
-}
-
+}*/
+/*
 .rectangle-18 {
     position: absolute;
     top: 80%;
     right: 0;
 }
-
+*/
+/*
 .ellipse-11 {
     position: absolute;
     left: 68%;
     top: 37.5rem;
     z-index: 1;
 }
-
+*/
 /*
 .app-container.dark {
     background-color: black;
     color: white;
 }*/
-
+/*
 .header {
     display: flex;
     justify-content: flex-end;
@@ -40,10 +41,9 @@
     gap: 2rem;
     padding-top: 2rem;
     padding-right: 9rem;
-}
+}*/
 
 label {
-    /* Toggle ikonu*/
     width: 3.44rem;
     height: 1.5rem;
     position: relative;
@@ -87,12 +87,13 @@ label:active:after {
     width: 26px;
 }
 
+/*
 .darkMode {
     height: 1.63rem;
     display: flex;
     gap: 0.5rem;
-}
-
+}*/
+/*
 .darkModeText,
 .divider {
     height: 1.5rem;
@@ -100,8 +101,8 @@ label:active:after {
     font-size: 1rem;
     font-weight: 700;
     color: #777777;
-}
-
+}*/
+/*
 .language {
     display: flex;
     align-items: end;
@@ -110,7 +111,7 @@ label:active:after {
     font-size: 1rem;
     font-weight: 700;
     color: #777777;
-}
+}*/
 
 /*
 .def-container {
@@ -120,7 +121,7 @@ label:active:after {
     padding-top: 5rem;
     gap: 3rem;
 }*/
-
+/*
 .paragraph {
     position: relative;
     width: 40rem;
@@ -128,16 +129,16 @@ label:active:after {
     font-size: 2.62rem;
     font-weight: 500;
     z-index: 10;
-}
-
+}*/
+/*
 .rectangle-2 {
     position: absolute;
     left: -1.5rem;
     top: 6.2rem;
     z-index: -1;
-}
+}*/
 
-
+/*
 .social-media {
     display: flex;
     gap: 1rem;
@@ -145,8 +146,8 @@ label:active:after {
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 2rem;
-}
-
+}*/
+/*
 .e-mail {
     padding-bottom: 4rem;
     padding-top: .5rem;
@@ -154,4 +155,4 @@ label:active:after {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-}
+}*/

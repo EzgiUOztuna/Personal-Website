@@ -14,11 +14,11 @@ export default function Introduction() {
     return (
         <>
             <div className={`w-screen bg-gray-100 transition-all from-neutral-300 relative  ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
-                <img className="ellipse-10" src="Ellipse 10.svg" />
-                <img className="rectangle-18" src="Rectangle 18.svg" />
-                <img className="ellipse-11" src="Ellipse 11.svg" />
-                <div className="header">
-                    <div className="darkMode">
+                <img className="absolute left-[29.23%]" src="Ellipse 10.svg" />
+                <img className="absolute top-[80%] right-0" src="Rectangle 18.svg" />
+                <img className="absolute left-[68%] top-[37.5rem] z-[1]" src="Ellipse 11.svg" />
+                <div className="flex justify-end h-[1.12rem] gap-8 pt-8 pr-36">
+                    <div className="h-[1.63rem] flex gap-2">
                         <input
                             type="checkbox"
                             id="darkmode-toggle"
@@ -26,10 +26,10 @@ export default function Introduction() {
                             onChange={handleDarkModeChange}
                         />
                         <label htmlFor="darkmode-toggle"></label>
-                        <p className="darkModeText">{language === "en" ? englishWords.mode : turkishWords.mode}</p>
+                        <p className="h-6 font-inter text-base font-bold text-[#777777]">{language === "en" ? englishWords.mode : turkishWords.mode}</p>
                     </div>
-                    <div className="divider">|</div>
-                    <div className="language">
+                    <div className="h-6 font-inter text-base font-bold text-[#777777]">|</div>
+                    <div className="flex items-end h-[1.5rem] font-inter text-[1rem] font-bold text-[#777777]">
                         <button onClick={toggleLanguage} dangerouslySetInnerHTML={{ __html: word.translate }}>
                         </button>
                     </div>
