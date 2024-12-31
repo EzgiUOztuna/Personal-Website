@@ -1,4 +1,4 @@
-.projects-container {
+/*.projects-container {
     width: 100vw;
     height: auto;
     position: relative;
@@ -9,21 +9,21 @@
 .projects-container.dark {
     background-color: black;
     color: white;
-}
-
+}*/
+/*
 .projects-container h1 {
     text-align: center;
     font-family: "inter", sans-serif;
     font-size: 2.25rem;
     font-weight: 500;
     padding: 3rem 0;
-}
-
+}*/
+/*
 .projects {
     display: flex;
     justify-content: center;
     gap: 5rem;
-}
+}*/
 
 .project-1 {
     border: 1px solid #DDEEFE;

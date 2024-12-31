@@ -10,9 +10,9 @@ export default function Projects() {
 
     return (
         <>
-            <div className={`projects-container ${darkMode ? "dark" : ""}`}>
-                <h1>{words.projects}</h1>
-                <div className="projects">
+            <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
+                <h1 className="text-center font-inter text-3xl font-medium py-12">{words.projects}</h1>
+                <div className="flex justify-center gap-20">
                     {words.project.map((item, index) => (
                         <div className={`project-${index + 1}`} key={index}>
                             <h2>{item.title}</h2>
