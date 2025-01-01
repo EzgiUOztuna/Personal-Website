@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         playfair: ['"Playfair Display"', 'sans-serif'],
+        content: {
+          '': '""', // Boş içerik ekler
+        },
       },
     },
   },

@@ -1,6 +1,5 @@
 import { DarkModeContext } from "../contexts/DarkModeContext";
 import { LanguageContext } from "../contexts/LanguageContext";
-import "./Introduction.css";
 import { useContext } from "react";
 import IntroductionDefinition from "./IntroductionDefinition";
 import { englishWords } from "../assets/EnglishData";
@@ -24,8 +23,9 @@ export default function Introduction() {
                             id="darkmode-toggle"
                             checked={darkMode}
                             onChange={handleDarkModeChange}
+                            className="peer hidden"
                         />
-                        <label htmlFor="darkmode-toggle"></label>
+                        <label htmlFor="darkmode-toggle" className="w-[3.44rem] h-6 relative flex bg-[#e92577] opacity-75 rounded-[12.5rem] cursor-pointer transition-duration: 300ms; after:content-[''] after:w-4 after:h-4 after:absolute after:top-1 after:left-1 after:bg-[#ffe86e] after:rounded-[11.25rem] after:transition-duration: 300ms; peer-checked:after:left-[3.18rem] peer-checked:after:-translate-x-full peer-checked:after:bg-[#3a3a3a] active:after:w-[1.62rem]"></label>
                         <p className="h-6 font-inter text-base font-bold text-[#777777]">{language === "en" ? englishWords.mode : turkishWords.mode}</p>
                     </div>
                     <div className="h-6 font-inter text-base font-bold text-[#777777]">|</div>
@@ -35,7 +35,7 @@ export default function Introduction() {
                     </div>
                 </div>
                 <IntroductionDefinition />
-            </div>
+            </div >
         </>
     );
 
