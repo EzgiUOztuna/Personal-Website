@@ -10,9 +10,11 @@ export default function Profile() {
         <>
             <div className={`w-screen h-auto bg-gray-100 relative transition-all block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
                 <img className="absolute right-0 top-[-1.5rem] w-12
+                                md:top-[-2rem] md:w-[4.87rem]
                                 lg:top-[-2rem] lg:w-[4.87rem]
                                 xl:top-[-2rem] xl:w-[4.87rem]" src="Ellipse 12.svg" />
                 <h3 className="text-center font-inter font-medium py-6 text-[1.5rem]
+                               md:text-[2.25rem] md:py-[3rem]
                                lg:text-[2.25rem] lg:py-[3rem]
                                xl:text-[2.25rem] xl:py-[3rem]">{words.profile}</h3>
 
