@@ -18,14 +18,16 @@ export default function Projects() {
                                  xl:flex-row xl:gap-20 ${darkMode ? "dark:text-black" : ""}`}>
                     {words.project.map((item, index) => (
                         <div className={`border ${index === 0 ? 'border-[#DDEEFE] bg-[#DDEEFE]' : 'border-[#D9F6F1] bg-[#D9F6F1]'
-                            } rounded-lg h-[38.8rem] mb-20 relative w-[24rem] p-5
+                            } rounded-lg h-[38.2rem] mb-20 relative w-[23rem] p-5
                             lg:w-[27rem] lg:p-8 lg:mb-20 lg:h-[42rem]
                             xl:w-[27rem] xl:p-8 xl:mb-20 xl:h-[42rem]`}
                             key={index}>
                             <h2 className="font-playfair font-bold pb-4 text-[1.3rem]
                                            lg:text-[1.8rem]
                                            xl:text-[1.8rem]">{item.title}</h2>
-                            <p className="font-inter font-normal text-[1rem] pb-4 w-[22.5rem]">{item.definition}</p>
+                            <p className="font-inter font-normal text-[0.95rem] pb-4 w-[21rem]
+                                          lg:w-[22.5rem]
+                                          xl:w-[22.5rem]">{item.definition}</p>
                             <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                 {(item.title === "Pizza Project" || item.title === "Pizza Projesi") && (
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
