@@ -61,7 +61,7 @@ export default function Projects() {
                                     <button>{words.viewGit}</button></a>
 
                                 <a href={item.appLink} target="_blank">
-                                    <button>{words.goApp}<span>&#8594;</span></button></a>
+                                    <button>{words.goApp}<span> &#8594;</span></button></a>
                             </div>
                             <img className="absolute top-[27rem] left-0
                                             lg:top-[28.85rem]
