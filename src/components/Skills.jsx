@@ -14,7 +14,7 @@ export default function Skills() {
                             lg:top-[20.5rem] lg:w-[6.93rem]
                             xl:top-[20.5rem] xl:w-[6.93rem]" src="Rectangle 22.svg" />
             <h2 className="text-center font-inter text-[1.5rem] font-medium py-6
-                            md:text-[2.5rem] md:py-10
+                            md:text-[2.25rem] md:py-10
                             lg:text-[2.5rem] lg:py-12
                             xl:text-[2.5rem] xl:py-12">{words.skills}</h2>
             <img className="relative mx-auto pb-14 w-[21rem]

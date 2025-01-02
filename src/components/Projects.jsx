@@ -11,7 +11,7 @@ export default function Projects() {
         <>
             <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
                 <h1 className="text-center font-inter font-medium py-6 text-base
-                               md:py-12 md:text-4xl
+                               md:py-12 md:text-[2.25rem]
                                lg:py-12 lg:text-4xl
                                xl:py-12 xl:text-4xl">{words.projects}</h1>
                 <div className={`flex flex-col justify-center items-center 
@@ -70,24 +70,31 @@ export default function Projects() {
                     ))}
                 </div>
                 <div className="flex justify-center items-center gap-9 pb-20 relative px-7
+                                md:gap-12 md:px-0
                                 lg:gap-20 lg:px-0
                                 xl:gap-20 xl:px-0">
                     <p className="font-inter font-medium text-[1.8rem] w-[24rem] text-right relative z-10
+                                  md:text-[2.5rem] md:w-[26rem]
                                   lg:text-[2.6rem] lg:w-[28rem]
                                   xl:text-[2.6rem] xl:w-[28rem]">{words.footerP}<img className="absolute bottom-[5.5rem] left-[35%] w-40 z-[-1]
+                                  md:w-60 md:bottom-[4.1rem] md:left-[41%]
                                   lg:w-60 lg:bottom-[4.1rem] lg:left-[43%]
                                   xl:w-60 xl:bottom-[4.1rem] xl:left-[43%]" src="Rectangle 40.svg" /></p>
                     <ul>
                         <a className="flex flex-col	text-[0.9rem] font-inter
+                                      md:text-base
                                       lg:text-base
                                       xl:text-base" style={{ color: "#1769FF" }} href={words.githubUrl} target="_blank">Github</a>
                         <a className="flex flex-col font-inter text-[0.9rem]
+                                     md:text-base
                                      lg:text-base
-                                    xl:text-base" href={words.personalBlogUrl} target="_blank">{words.personalBlogTitle}</a>
+                                     xl:text-base" href={words.personalBlogUrl} target="_blank">{words.personalBlogTitle}</a>
                         <a className="flex flex-col font-inter text-[0.9rem]
+                                     md:text-base
                                      lg:text-base
-                                    xl:text-base" style={{ color: "#0077B5" }} href={words.linkedinUrl} target="_blank">Linkedin</a>
+                                     xl:text-base" style={{ color: "#0077B5" }} href={words.linkedinUrl} target="_blank">Linkedin</a>
                         <a className="flex flex-col font-inter text-[0.9rem]
+                                      md:text-base
                                       lg:text-base
                                       xl:text-base" style={{ color: "#AF0C48" }} href={words.emailUrl} target="_blank">Email</a>
                     </ul>
