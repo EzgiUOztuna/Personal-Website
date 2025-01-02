@@ -31,7 +31,7 @@ function IntroductionDefinition() {
                                   xl:ml-0 xl:w-[28.5rem] xl:text-base xl:pt-2 xl:pb-16" dangerouslySetInnerHTML={{ __html: words.email }} />
                 </div>
             </div>
-            <img className="w-[9rem] mr-20 lg:w-[20rem] lg:mr-0 xl:w-[20rem] xl:mr-0" src="Group 102.svg" />
+            <img className="w-[9rem] mr-20 lg:w-[20rem] lg:mr-0 xl:w-[20rem] xl:mr-0 p-2" src="Group 102.svg" />
         </div>
     )
 }
