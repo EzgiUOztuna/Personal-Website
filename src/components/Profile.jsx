@@ -42,7 +42,7 @@ export default function Profile() {
                     <div className="w-[23rem] leading-8 relative
                                     lg:w-[27.5rem]
                                     xl:w-[27.5rem]">
-                        <h4 className="font-playfair text-[1.2rem] font-normal leading-8 relative z-[10]
+                        <h4 className="font-playfair text-[1.2rem] font-normal leading-8 relative z-[10] px-2
                                        lg:text-2xl
                                        xl:text-2xl">{words.aboutMe} <img className="absolute top-[1.1rem] left-[-0.7rem] w-[4.5rem] -z-10
                                        lg:left-[-0.9rem] lg:w-[5.62rem]
