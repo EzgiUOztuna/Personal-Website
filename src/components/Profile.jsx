@@ -15,8 +15,8 @@ export default function Profile() {
                                 xl:top-[-2rem] xl:w-[4.87rem]" src="Ellipse 12.svg" />
                 <h3 className="text-center font-inter font-medium py-6 text-[1.5rem]
                                md:text-[2.5rem] md:py-10
-                               lg:text-[2.25rem] lg:py-[3rem]
-                               xl:text-[2.25rem] xl:py-[3rem]">{words.profile}</h3>
+                               lg:text-[2.5rem] lg:py-[3rem]
+                               xl:text-[2.5rem] xl:py-[3rem]">{words.profile}</h3>
 
                 <div className="flex flex-col justify-center items-center gap-10 pb-8 px-5
                                 md:flex-row md:gap-8 md:pb-16
