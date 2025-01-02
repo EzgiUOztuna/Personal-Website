@@ -16,10 +16,12 @@ export default function Introduction() {
                 <img className="absolute left-[4%] w-20
                                 lg:left-[29.23%] lg:w-[6.93rem]
                                 xl:left-[29.23%] xl:w-[6.93rem]" src="Ellipse 10.svg" />
-                <img className="absolute top-[70%] right-0 w-[62px]
-                                lg:top-[80%] lg:w-[124px]
-                                xl:top-[80%] xl:w-[124px]" src="Rectangle 18.svg" />
-                <img className="absolute left-[68%] top-[37.5rem] z-[1]" src="Ellipse 11.svg" />
+                <img className="absolute top-[70%] right-0 w-[3.87rem]
+                                lg:top-[80%] lg:w-[7.75rem]
+                                xl:top-[80%] xl:w-[7.75rem]" src="Rectangle 18.svg" />
+                <img className="absolute left-[65%] top-[22.2rem] z-[1] w-[4.5rem]
+                                lg:left-[68%] lg:top-[37.5rem] lg:w-[7.56rem]
+                                xl:left-[68%] xl:top-[37.5rem] xl:w-[7.56rem]" src="Ellipse 11.svg" />
                 <div className="relative flex justify-end h-[1.12rem] gap-2 pt-8 pr-4 items-center 
                                 lg:gap-8 lg:pr-36
                                 xl:gap-8 xl:pr-36">
