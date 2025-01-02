@@ -8,7 +8,7 @@ function IntroductionDefinition() {
 
     return (
         <div className={`flex justify-center items-start pt-20 gap-0 ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
-            <div className="relative w-[20rem] font-inter text-[1rem] font-medium z-10
+            <div className="relative w-[20rem] font-inter text-[1rem] font-medium z-10 p-3
                             lg:w-[40rem] lg:text-[2.62rem]
                             xl:w-[40rem] xl:text-[2.62rem]">
                 <img className="absolute left-[4.2rem] top-[2.1rem] z-[-1] h-5 w-[3.75rem]
