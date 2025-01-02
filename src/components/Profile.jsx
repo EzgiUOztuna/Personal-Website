@@ -39,7 +39,7 @@ export default function Profile() {
                                       xl:text-[1.12rem]"><span className="font-semibold min-w-40 text-left ml-4">{words.role.label}</span>{words.role.value}</p>
                     </div>
 
-                    <div className="w-[24rem] leading-8 relative p-3
+                    <div className="w-[23rem] leading-8 relative 
                                     lg:w-[27.5rem]
                                     xl:w-[27.5rem]">
                         <h4 className="font-playfair text-[1.2rem] font-normal leading-8 relative z-[10]
