@@ -19,7 +19,7 @@ export default function Introduction() {
                 <img className="absolute top-[70%] right-0 w-[3.87rem]
                                 lg:top-[80%] lg:w-[7.75rem]
                                 xl:top-[80%] xl:w-[7.75rem]" src="Rectangle 18.svg" />
-                <img className="absolute left-[65%] top-[22.2rem] z-[1] w-[4.5rem]
+                <img className="absolute left-[65%] top-[23.5rem] z-[1] w-[4.5rem]
                                 lg:left-[68%] lg:top-[37.5rem] lg:w-[7.56rem]
                                 xl:left-[68%] xl:top-[37.5rem] xl:w-[7.56rem]" src="Ellipse 11.svg" />
                 <div className="relative flex justify-end h-[1.12rem] gap-2 pt-8 pr-4 items-center 
