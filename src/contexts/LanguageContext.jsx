@@ -1,11 +1,12 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
 import { englishWords } from "../assets/EnglishData";
 import { turkishWords } from "../assets/TurkishData";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 export const LanguageContext = createContext();
 
 export default function LanguageContextProvider({ children }) {
-    const [language, setLanguage] = useState("en");
+    const [language, setLanguage] = useLocalStorage("language", "en");
     const words = language === "en" ? englishWords : turkishWords;
 
     const toggleLanguage = () => {
