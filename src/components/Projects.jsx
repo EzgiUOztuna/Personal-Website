@@ -11,9 +11,11 @@ export default function Projects() {
         <>
             <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
                 <h1 className="text-center font-inter font-medium py-6 text-[1.5rem]
+                               md:py-12 md:text-3xl
                                lg:py-12 lg:text-3xl
                                xl:py-12 xl:text-3xl">{words.projects}</h1>
                 <div className={`flex flex-col justify-center items-center 
+                                 md:flex-row md:gap-8
                                  lg:flex-row lg:gap-20
                                  xl:flex-row xl:gap-20 ${darkMode ? "dark:text-black" : ""}`}>
                     {words.project.map((item, index) => (
