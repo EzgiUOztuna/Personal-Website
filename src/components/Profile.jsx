@@ -39,7 +39,7 @@ export default function Profile() {
                                       xl:text-[1.12rem]"><span className="font-semibold min-w-40 text-left ml-4">{words.role.label}</span>{words.role.value}</p>
                     </div>
 
-                    <div className="w-[23rem] leading-8 relative 
+                    <div className="w-[23rem] leading-8 relative
                                     lg:w-[27.5rem]
                                     xl:w-[27.5rem]">
                         <h4 className="font-playfair text-[1.2rem] font-normal leading-8 relative z-[10]
@@ -47,7 +47,7 @@ export default function Profile() {
                                        xl:text-2xl">{words.aboutMe} <img className="absolute top-[1.1rem] left-[-0.7rem] w-[4.5rem] -z-10
                                        lg:left-[-0.9rem] lg:w-[5.62rem]
                                        xl:left-[-0.9rem] xl:w-[5.62rem]" src="Rectangle 39.svg" /></h4>
-                        <p className="relative font-inter text-base font-normal my-5 w-[23rem]
+                        <p className="relative font-inter text-base font-normal my-5 w-[23rem] px-2
                                       lg:w-[30rem] lg:my-6
                                       xl:w-[30rem] xl:my-6">{words.aboutMeParagraph}</p>
                     </div>
