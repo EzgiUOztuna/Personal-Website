@@ -19,7 +19,7 @@ export default function Profile() {
                                xl:text-[2.25rem] xl:py-[3rem]">{words.profile}</h3>
 
                 <div className="flex flex-col justify-center items-center gap-10 pb-8 px-5
-                                md:flex-row md:gap-5 md:pb-16
+                                md:flex-row md:gap-8 md:pb-16
                                 lg:flex-row lg:gap-16 lg:pb-20
                                 xl:flex-row	xl:gap-16 xl:pb-20">
                     <div className={`border border-white rounded-lg bg-white shadow-[rgba(82,82,82,0.5)] w-[23rem] p-3 
