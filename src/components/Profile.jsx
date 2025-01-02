@@ -19,7 +19,7 @@ export default function Profile() {
                 <div className="flex flex-col justify-center items-center gap-10 pb-8
                                 lg:flex-row lg:gap-16 lg:pb-20
                                 xl:flex-row	xl:gap-16 xl:pb-20">
-                    <div className={`border border-white rounded-lg bg-white shadow-[rgba(82,82,82,0.5)] w-[24rem] p-3 
+                    <div className={`border border-white rounded-lg bg-white shadow-[rgba(82,82,82,0.5)] w-[23rem] p-3 
                                     lg:w-[30rem] lg:p-8 
                                     xl:w-[30rem] xl:p-8 ${darkMode ? "dark:bg-gray-100 text-black" : ""}`}>
                         <h4 className="font-playfair text-[#ea2678] font-normal text-[1.2rem] pb-[1.5rem] ml-[1rem]
