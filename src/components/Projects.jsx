@@ -46,8 +46,8 @@ export default function Projects() {
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                         {words.witflixProjectTechnologies && words.witflixProjectTechnologies.map((tech, index) => (
                                             <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
-                                                                      lg:text-base
-                                                                      xl:text-base`}>
+                                                                       lg:text-base
+                                                                       xl:text-base`}>
                                                 {tech}
                                             </p>
                                         ))}
