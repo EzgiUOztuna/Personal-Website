@@ -12,7 +12,7 @@ function IntroductionDefinition() {
                             md:w-[30rem] md:text-[2rem]
                             lg:w-[40rem] lg:text-[2.62rem]
                             xl:w-[40rem] xl:text-[2.62rem]">
-                <img className="absolute left-[4.9rem] top-[2.8rem] z-[-1] h-5 w-[3.75rem]
+                <img className="absolute left-[5.4rem] top-[2.2rem] z-[-1] h-5 w-[3.75rem]
                                 md:top-[4.7rem] md:h-[1.94rem] md:left-[-2.4rem] md:w-[9.25rem]
                                 lg:top-[6.2rem] lg:h-[1.94rem] lg:left-[-1.5rem] lg:w-[9.25rem]
                                 xl:top-[6.2rem] xl:h-[1.94rem] xl:left-[-1.5rem] xl:w-[9.25rem]" src="Rectangle 2.svg" />

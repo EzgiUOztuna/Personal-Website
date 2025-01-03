@@ -17,10 +17,76 @@ export default function Skills() {
                             md:text-[2.25rem] md:py-10
                             lg:text-[2.5rem] lg:py-12
                             xl:text-[2.5rem] xl:py-12">{words.skills}</h2>
-            <img className="relative mx-auto pb-14 w-[21rem]
-                            md:pb-28 md:w-[35rem]
-                            lg:pb-28 lg:w-[50rem]
-                            xl:pb-28 xl:w-[50rem]" src="skillBoxes.svg" />
+
+            <div className="flex flex-wrap relative mx-auto pb-14 w-[15rem] gap-[1rem] items-center justify-center
+                            md:pb-28 md:w-[35rem] md:gap-[2rem]
+                            lg:pb-28 lg:w-[58rem] lg:gap-[2.18rem]
+                            xl:pb-28 xl:w-[58rem] xl:gap-[2.18rem]">
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/javascript.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem] mx-auto
+                                     md:leading-[2.25rem]
+                                     lg:leading-[2.25rem]
+                                     xl:leading-[2.25rem]">JAVASCRIPT</span>
+                </div>
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/react.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem]">REACT</span>
+                </div>
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/redux.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem]">REDUX</span>
+                </div>
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/node.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem]">NODE</span>
+                </div>
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/vscode.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem]">VS CODE</span>
+                </div>
+                <div className="w-[90px] text-center
+                                md:w-[120px]
+                                lg:w-[120px]
+                                xl:w-[120px]">
+                    <img className="w-[60px] mx-auto
+                                    md:w-[35rem]
+                                    lg:w-[35rem]
+                                    xl:w-[35rem]" src="./skill boxes/figma.svg" />
+                    <span className="font-inter font-medium leading-[2.25rem]">FIGMA</span>
+                </div>
+            </div>
+
         </div>
     )
 }
