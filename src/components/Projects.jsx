@@ -10,7 +10,7 @@ export default function Projects() {
     return (
         <>
             <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-[#484148] text-white" : ""}`}>
-                <h1 className="text-center font-inter font-medium py-6 text-base
+                <h1 className="text-center font-inter font-medium py-6 text-[1.5rem]
                                md:py-12 md:text-[2.25rem]
                                lg:py-12 lg:text-4xl
                                xl:py-12 xl:text-4xl">{words.projects}</h1>
