@@ -7,7 +7,7 @@ function IntroductionDefinition() {
     const { words } = useContext(LanguageContext);
 
     return (
-        <div className={`flex justify-center items-start pt-20 gap-0  ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
+        <div className={`flex justify-center items-start pt-20 gap-0  ${darkMode ? "dark:bg-[#2A262B] text-white" : ""}`}>
             <div className="relative w-[20rem] font-inter text-[1rem] font-medium z-10 px-4
                             md:w-[30rem] md:text-[2rem]
                             lg:w-[40rem] lg:text-[2.62rem]

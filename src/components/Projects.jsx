@@ -9,7 +9,7 @@ export default function Projects() {
 
     return (
         <>
-            <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
+            <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-[#484148] text-white" : ""}`}>
                 <h1 className="text-center font-inter font-medium py-6 text-base
                                md:py-12 md:text-[2.25rem]
                                lg:py-12 lg:text-4xl
@@ -19,7 +19,7 @@ export default function Projects() {
                                  lg:flex-row lg:gap-20
                                  xl:flex-row xl:gap-20 ${darkMode ? "dark:text-black" : ""}`}>
                     {words.project.map((item, index) => (
-                        <div className={`border ${index === 0 ? 'border-[#DDEEFE] bg-[#DDEEFE]' : 'border-[#D9F6F1] bg-[#D9F6F1]'
+                        <div className={`border-0 ${index === 0 ? (`bg-[#DDEEFE] ${darkMode ? "dark:bg-[#2D3235] text-white" : ""}`) : (`border-[#D9F6F1] bg-[#D9F6F1] ${darkMode ? "dark:bg-[#495351] text-white" : ""}`)
                             } rounded-lg h-[38.2rem] mb-20 relative w-[23rem] p-5
                             lg:w-[27rem] lg:p-8 lg:mb-24 lg:h-[42rem]
                             xl:w-[27rem] xl:p-8 xl:mb-24 xl:h-[42rem]`}
@@ -34,9 +34,9 @@ export default function Projects() {
                                 {(item.title === "Pizza Project" || item.title === "Pizza Projesi") && (
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                         {words.pizzaProjectTechnologies && words.pizzaProjectTechnologies.map((tech, index) => (
-                                            <p key={index} className="border border-white rounded-full px-4 bg-white text-[0.8rem]
-                                                                      lg:text-base
-                                                                      xl:text-base">
+                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
+                                                                       lg:text-base
+                                                                       xl:text-base`}>
                                                 {tech}
                                             </p>
                                         ))}
@@ -45,9 +45,9 @@ export default function Projects() {
                                 {(item.title === "WITFLIX_Wiframe Project" || item.title === "WITFLIX_Wiframe Projesi") && (
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                         {words.witflixProjectTechnologies && words.witflixProjectTechnologies.map((tech, index) => (
-                                            <p key={index} className="border border-white rounded-full px-4 bg-white text-[0.8rem]
+                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
                                                                       lg:text-base
-                                                                      xl:text-base">
+                                                                      xl:text-base`}>
                                                 {tech}
                                             </p>
                                         ))}

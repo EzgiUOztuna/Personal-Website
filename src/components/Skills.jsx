@@ -8,7 +8,7 @@ export default function Skills() {
     const { words } = useContext(LanguageContext);
 
     return (
-        <div className={`w-screen h-112 relative transition-all block ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
+        <div className={`w-screen h-112 relative transition-all block ${darkMode ? "dark:bg-[#484148] text-white" : ""}`}>
             <img className="absolute top-[9.7rem] w-[3.87rem]
                             md:top-[17rem] md:w-[6.93rem]
                             lg:top-[20.5rem] lg:w-[6.93rem]

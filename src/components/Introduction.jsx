@@ -12,7 +12,7 @@ export default function Introduction() {
 
     return (
         <>
-            <div className={`w-screen bg-gray-100 transition-all from-neutral-300 relative ${darkMode ? "dark:bg-slate-800 text-white" : ""}`}>
+            <div className={`w-screen bg-gray-100 transition-all from-neutral-300 relative ${darkMode ? "dark:bg-[#2A262B] text-white" : ""}`}>
                 <img className="absolute left-[4%] w-20
                                 md:left-[29.23%] md:w-[6.93rem]
                                 lg:left-[29.23%] lg:w-[6.93rem]
