@@ -21,7 +21,7 @@ export default function Introduction() {
                                 md:top-[80%] md:w-[7.75rem]
                                 lg:top-[80%] lg:w-[7.75rem]
                                 xl:top-[80%] xl:w-[7.75rem]" src="Rectangle 18.svg" />
-                <img className="absolute left-[65%] top-[23.5rem] z-[1] w-[4.5rem]
+                <img className="absolute left-[65%] top-[22.2rem] z-[1] w-[4.5rem]
                                 md:left-[64%] md:top-[31rem] md:w-[7.56rem]
                                 lg:left-[68%] lg:top-[37.5rem] lg:w-[7.56rem]
                                 xl:left-[68%] xl:top-[37.5rem] xl:w-[7.56rem]" src="Ellipse 11.svg" />
