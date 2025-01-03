@@ -1,5 +1,8 @@
 export const englishWords = {
-    mode: "DARK MODE",
+    mode: {
+        darkmode: "DARK MODE",
+        lightmode: "LIGHT MODE"
+    },
     translate: "TRANSLATE TO <span style='color: #e92577;'>ENGLISH</span>",
     title: "Hi! 👋",
     definition: "I’m Ezgi. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",

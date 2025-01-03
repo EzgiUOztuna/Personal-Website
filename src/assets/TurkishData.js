@@ -1,5 +1,8 @@
 export const turkishWords = {
-    mode: "KARANLIK MOD",
+    mode: {
+        darkmode: "KARANLIK MOD",
+        lightmode: "AÇIK MOD"
+    },
     translate: "<span style='color: #e92577;'>TÜRKÇE</span>'YE ÇEVİR",
     title: "Merhaba! 👋",
     definition: "Ben Ezgi. Ben bir full-stack geliştiricisiyim. Sağlam ve ölçeklenebilir ön uç ürünler geliştirebilirim. Tanışalım!",

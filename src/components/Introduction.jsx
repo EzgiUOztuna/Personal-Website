@@ -37,12 +37,12 @@ export default function Introduction() {
                             onChange={handleDarkModeChange}
                             className="peer hidden"
                         />
-                        <label htmlFor="darkmode-toggle" className="w-[2rem] h-5 relative flex bg-[#e92577] opacity-75 rounded-[12.5rem] cursor-pointer transition-duration: 300ms;  after:content-[''] after:w-[0.8rem] after:h-[0.8rem] after:absolute after:top-[0.24rem] after:left-1 after:bg-[#ffe86e] after:rounded-[11.25rem] after:transition-duration: 300ms; peer-checked:after:left-[1.8rem] peer-checked:after:-translate-x-full peer-checked:after:bg-[#3a3a3a] active:after:w-[2rem]
+                        <label htmlFor="darkmode-toggle" className="w-[2rem] h-5 relative flex bg-[#e92577] opacity-75 rounded-[12.5rem] cursor-pointer transition-duration: 300ms;  after:content-[''] after:w-[0.8rem] after:h-[0.8rem] after:absolute after:top-[0.24rem] after:left-1 after:bg-[#ffe86e] after:rounded-[11.25rem] after:transition-duration: 300ms; peer-checked:after:left-[1.8rem] peer-checked:after:-translate-x-full peer-checked:after:bg-[#3a3a3a] active:after:w-[2rem] 
                         lg:w-[3.44rem] lg:h-6 lg:after:w-4 lg:after:h-4 lg:after:top-1 lg:peer-checked:after:left-[3.18rem] lg:active:after:w-[1.62rem] 
                         xl:w-[3.44rem] xl:h-6 xl:after:w-4 xl:after:h-4 xl:after:top-1 xl:peer-checked:after:left-[3.18rem] xl:active:after:w-[1.62rem]"></label>
                         <p className="h-6 font-inter text-[0.9rem] font-bold text-[#777777] pl-2
                                       lg:text-base
-                                      xl:text-base">{language === "en" ? englishWords.mode : turkishWords.mode}</p>
+                                      xl:text-base">{!darkMode ? (language === "en" ? englishWords.mode.darkmode : turkishWords.mode.darkmode) : (language === "en" ? englishWords.mode.lightmode : turkishWords.mode.lightmode)}</p>
                     </div>
                     <div className="h-6 font-inter text-[0.9rem] font-bold text-[#777777]
                                     lg:text-base
