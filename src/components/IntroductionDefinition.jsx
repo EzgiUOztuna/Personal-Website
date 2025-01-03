@@ -41,10 +41,10 @@ function IntroductionDefinition() {
                                   xl:ml-0 xl:w-[28.5rem] xl:text-base xl:pt-2 xl:pb-16" dangerouslySetInnerHTML={{ __html: words.email }} />
                 </div>
             </div>
-            <img className="w-[9rem] mr-20 p-2
+            <img className="w-[9rem] mr-20 p-0 rounded-[32px] relative m-0 shadow-[-0.5rem_-0.5rem_rgba(233,37,119,1)]
                             md:w-[15rem] md:mr-0
-                            lg:w-[20rem] lg:mr-0 
-                            xl:w-[20rem] xl:mr-0 " src="Group 102.svg" />
+                            lg:w-[22.56rem] lg:mr-0 
+                            xl:w-[22.56rem] xl:mr-0 " src="Ezgi.png" />
         </div>
     )
 }

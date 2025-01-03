@@ -22,10 +22,10 @@ export default function Profile() {
                                 md:flex-row md:gap-8 md:pb-16
                                 lg:flex-row lg:gap-16 lg:pb-20
                                 xl:flex-row	xl:gap-16 xl:pb-20">
-                    <div className={`border-0 border-white rounded-lg bg-white w-[23rem] p-3 shadow-[.5rem_.5rem_rgba(82,82,82,0.5)]
-                                    md:w-[24rem] md:p-6 
-                                    lg:w-[30rem] lg:p-8 
-                                    xl:w-[30rem] xl:p-8 ${darkMode ? "dark:bg-[#525252] text-white" : ""}`}>
+                    <div className={`border-0 border-white rounded-lg bg-white w-[23rem] p-3 shadow-[.2rem_.2rem_rgba(82,82,82,0.5)]
+                                    md:w-[24rem] md:p-6 md:shadow-[.3rem_.3rem_rgba(82,82,82,0.5)]
+                                    lg:w-[30rem] lg:p-8 lg:shadow-[.5rem_.5rem_rgba(82,82,82,0.5)]
+                                    xl:w-[30rem] xl:p-8 xl:shadow-[.5rem_.5rem_rgba(82,82,82,0.5)] ${darkMode ? "dark:bg-[#525252] text-white" : ""}`}>
                         <h4 className="font-playfair text-[#ea2678] font-normal text-[1.2rem] pb-[1.5rem] ml-[1rem]
                                        md:text-[1.5rem]
                                        lg:text-[1.5rem]
