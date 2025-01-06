@@ -68,12 +68,15 @@ export const englishWords = {
     witflixProjectTechnologies: ["html", "css", "vercel"],
     pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
     programs: [
+        { name: 'HTML', image: './skill boxes/html.svg' },
+        { name: 'CSS', image: './skill boxes/css.svg' },
         { name: 'JAVASCRIPT', image: './skill boxes/javascript.svg' },
         { name: 'REACT', image: './skill boxes/react.svg' },
         { name: 'REDUX', image: './skill boxes/redux.svg' },
         { name: 'NODE', image: './skill boxes/node.svg' },
         { name: 'VS CODE', image: './skill boxes/vscode.svg' },
         { name: 'FIGMA', image: './skill boxes/figma.svg' },
+        { name: 'JAVA', image: './skill boxes/java.svg' },
     ],
 
 };

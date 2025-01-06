@@ -11,8 +11,8 @@ export default function Skills() {
         <div className={`w-screen h-112 relative transition-all block ${darkMode ? "dark:bg-[#484148] text-white" : ""}`}>
             <img className="absolute top-[9.7rem] w-[3.87rem]
                             md:top-[17rem] md:w-[6.93rem]
-                            lg:top-[20.5rem] lg:w-[6.93rem]
-                            xl:top-[20.5rem] xl:w-[6.93rem]" src="Rectangle 22.svg" />
+                            lg:top-[31rem] lg:w-[6.93rem]
+                            xl:top-[31rem] xl:w-[6.93rem]" src="Rectangle 22.svg" />
             <h2 className="text-center font-inter text-[1.5rem] font-medium py-6
                             md:text-[2.25rem] md:py-10
                             lg:text-[2.5rem] lg:py-12
