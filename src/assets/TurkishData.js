@@ -75,7 +75,7 @@ export const turkishWords = {
         { name: 'REDUX', image: './skill boxes/redux.svg' },
         { name: 'VS CODE', image: './skill boxes/vscode.svg' },
         { name: 'FIGMA', image: './skill boxes/figma.svg' },
-        { name: 'INTELLIJ IDEA', image: './skill boxes/intellij.svg' },
+        { name: 'INTELLIJ', image: './skill boxes/intellij.svg' },
         { name: 'JAVA', image: './skill boxes/java.svg' },
     ],
 };
