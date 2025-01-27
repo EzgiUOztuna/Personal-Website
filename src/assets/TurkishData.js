@@ -10,7 +10,7 @@ export const turkishWords = {
     socialMedia: [
         {
             platform: "Linkedin",
-            url: "https://www.linkedin.com/in/ezgiuygun/",
+            url: "https://www.linkedin.com/in/ezgiuygunoztuna/",
             iconClass: "fa-brands fa-linkedin-in fa-xs",
         },
         {
@@ -63,7 +63,7 @@ export const turkishWords = {
     githubUrl: "https://github.com/EzgiUOztuna",
     personalBlogTitle: "Kişisel Blog",
     personalBlogUrl: "",
-    linkedinUrl: "https://www.linkedin.com/in/ezgiuygun/",
+    linkedinUrl: "https://www.linkedin.com/in/ezgiuygunoztuna/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
     witflixProjectTechnologies: ["html", "css", "vercel"],
     pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
