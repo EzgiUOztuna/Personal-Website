@@ -77,6 +77,8 @@ export const englishWords = {
         { name: 'FIGMA', image: './skill boxes/figma.svg' },
         { name: 'INTELLIJ', image: './skill boxes/intellij.svg' },
         { name: 'JAVA', image: './skill boxes/java.svg' },
+        { name: 'SPRING BOOT', image: './skill boxes/springboot.svg' },
+        { name: 'PostgreSQL', image: './skill boxes/postgresql.svg' },
     ],
 
 };
