@@ -14,16 +14,27 @@ export default function Projects() {
                                md:py-12 md:text-[2.25rem]
                                lg:py-12 lg:text-4xl
                                xl:py-12 xl:text-4xl">{words.projects}</h1>
-                <div className={`flex flex-col justify-center items-center 
-                                 md:flex-row md:gap-8
-                                 lg:flex-row lg:gap-20
-                                 xl:flex-row xl:gap-20 ${darkMode ? "dark:text-black" : ""}`}>
+
+
+                <div className={`flex flex-row overflow-x-auto px-1
+                                 md:gap-2 md:px-3
+                                 lg:gap-6 lg:px-5
+                                 xl:gap-6 xl:justify-center xl:px-7 ${darkMode ? "dark:text-black" : ""}`}>
+
+
+
+
                     {words.project.map((item, index) => (
-                        <div className={`border-0 ${index === 0 ? (`bg-[#DDEEFE] ${darkMode ? "dark:bg-[#2D3235] text-white" : ""}`) : (`border-[#D9F6F1] bg-[#D9F6F1] ${darkMode ? "dark:bg-[#495351] text-white" : ""}`)
-                            } rounded-lg h-[38.2rem] mb-20 relative w-[23rem] p-5
+                        <div className={`border-0 ${index === 0
+                            ? (`bg-[#DDEEFE] ${darkMode ? "dark:bg-[#2D3235] text-white" : ""}`)
+                            : (index == 1
+                                ? (`border-[#D9F6F1] bg-[#D9F6F1] ${darkMode ? "dark:bg-[#495351] text-white" : ""}`)
+                                : (`border-[#faebf9] bg-[#faebf9] ${darkMode ? "dark:bg-[#3B3F43] text-white" : ""}`))
+                            } rounded-lg h-[38.2rem] mb-14 relative w-[23rem] p-5 mx-2
                             lg:w-[27rem] lg:p-8 lg:mb-24 lg:h-[42rem]
                             xl:w-[27rem] xl:p-8 xl:mb-24 xl:h-[42rem]`}
                             key={index}>
+
                             <h2 className="font-playfair font-bold pb-4 text-[1.3rem]
                                            lg:text-[1.8rem]
                                            xl:text-[1.8rem]">{item.title}</h2>
@@ -31,6 +42,19 @@ export default function Projects() {
                                           lg:w-[22.5rem]
                                           xl:w-[22.5rem]">{item.definition}</p>
                             <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
+
+                                {(item.title === "Personal Website Project" || item.title === "Personal Website Project") && (
+                                    <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
+                                        {words.personalProjectTechnologies && words.personalProjectTechnologies.map((tech, index) => (
+                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
+                                                                       lg:text-base
+                                                                       xl:text-base`}>
+                                                {tech}
+                                            </p>
+                                        ))}
+                                    </div>
+                                )}
+
                                 {(item.title === "Pizza Project" || item.title === "Pizza Projesi") && (
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                         {words.pizzaProjectTechnologies && words.pizzaProjectTechnologies.map((tech, index) => (
@@ -42,6 +66,7 @@ export default function Projects() {
                                         ))}
                                     </div>
                                 )}
+
                                 {(item.title === "WITFLIX_Wiframe Project" || item.title === "WITFLIX_Wiframe Projesi") && (
                                     <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
                                         {words.witflixProjectTechnologies && words.witflixProjectTechnologies.map((tech, index) => (
@@ -69,7 +94,7 @@ export default function Projects() {
                         </div>
                     ))}
                 </div>
-                <div className="flex justify-center items-center gap-9 pb-20 relative px-7
+                <div className="flex justify-center items-center gap-9 pb-20 relative px-7 pt-8
                                 md:gap-12 md:px-0
                                 lg:gap-20 lg:px-0
                                 xl:gap-20 xl:px-0">

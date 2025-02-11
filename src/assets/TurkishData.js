@@ -43,11 +43,11 @@ export const turkishWords = {
     projects: "Projeler",
     project: [
         {
-            title: "WITFLIX_Wiframe Projesi",
-            definition: "WITFLIX_Wiframe, yazılım geliştirme yolculuğumda yaptığım ilk projelerden biridir. Bu projede yalnızca HTML ve CSS kullanarak, kullanıcıların içerikleri keşfetmelerine olanak tanıyan basit bir medya akış platformu tasarladım. Proje, temel web tasarım prensiplerine dayanarak kullanıcı dostu bir arayüz sunmayı amaçladı. Bu proje, HTML ve CSS hakkında derinlemesine bilgi edinmeme ve temel web tasarımı becerilerimi geliştirmeme yardımcı oldu.",
-            githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
-            appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
-            imageUrl: "Group 104.svg",
+            title: "Kişisel Web Site Projesi",
+            definition: "Kendi kişisel web sitemi oluşturarak profesyonel hayatımdaki bilgileri bir araya getirdim. Bu proje sırasında React.js, TailwindCSS ve Context API konularında becerilerimi geliştirme fırsatı buldum. Verileri bir dummy data kaynağından çektim ve siteye hem Türkçe hem İngilizce dil seçenekleri ekledim. Ayrıca, kullanıcı deneyimini geliştirmek için dark ve light mod özelliklerine de yer verdim.",
+            githubLink: "https://github.com/EzgiUOztuna/Personal_Website",
+            appLink: "https://personal-website-psi-three-79.vercel.app/",
+            imageUrl: "Group 105.svg",
         },
         {
             title: "Pizza Projesi",
@@ -55,6 +55,13 @@ export const turkishWords = {
             githubLink: "https://github.com/EzgiUOztuna/PizzaProject-s8",
             appLink: "https://pizza-project-s8.vercel.app",
             imageUrl: "Group 103.svg",
+        },
+        {
+            title: "WITFLIX_Wiframe Projesi",
+            definition: "WITFLIX_Wiframe, yazılım geliştirme yolculuğumda yaptığım ilk projelerden biridir. Bu projede yalnızca HTML ve CSS kullanarak, kullanıcıların içerikleri keşfetmelerine olanak tanıyan basit bir medya akış platformu tasarladım. Proje, temel web tasarım prensiplerine dayanarak kullanıcı dostu bir arayüz sunmayı amaçladı. Bu proje, HTML ve CSS hakkında derinlemesine bilgi edinmeme ve temel web tasarımı becerilerimi geliştirmeme yardımcı oldu.",
+            githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
+            appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
+            imageUrl: "Group 104.svg",
         },
     ],
     viewGit: "Github'da Görüntüle",
@@ -65,8 +72,9 @@ export const turkishWords = {
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygunoztuna/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
-    witflixProjectTechnologies: ["html", "css", "vercel"],
+    personalProjectTechnologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
     pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
+    witflixProjectTechnologies: ["html", "css", "vercel"],
     programs: [
         { name: 'HTML', image: './skill boxes/html.svg' },
         { name: 'CSS', image: './skill boxes/css.svg' },

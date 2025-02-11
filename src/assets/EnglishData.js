@@ -43,11 +43,11 @@ export const englishWords = {
     projects: "Projects",
     project: [
         {
-            title: "WITFLIX_Wiframe Project",
-            definition: "WITFLIX_Wiframe is one of the first projects I worked on during my software development journey. In this project, I used only HTML and CSS to design a simple media streaming platform that allows users to explore content. The project aimed to provide a user-friendly interface based on fundamental web design principles. This project helped me deepen my knowledge of HTML and CSS and enhance my basic web design skills.",
-            githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
-            appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
-            imageUrl: "Group 104.svg",
+            title: "Personal Website Project",
+            definition: "I created my personal website to bring together information about my professional life. During this project, I had the opportunity to enhance my skills in React.js, TailwindCSS, and Context API. I utilized dummy data as the content source and implemented both Turkish and English language options. Additionally, I included dark and light mode features to improve the user experience.",
+            githubLink: "https://github.com/EzgiUOztuna/Personal_Website",
+            appLink: "https://personal-website-psi-three-79.vercel.app/",
+            imageUrl: "Group 105.svg",
         },
         {
             title: "Pizza Project",
@@ -55,6 +55,13 @@ export const englishWords = {
             githubLink: "https://github.com/EzgiUOztuna/PizzaProject-s8",
             appLink: "https://pizza-project-s8.vercel.app",
             imageUrl: "Group 103.svg",
+        },
+        {
+            title: "WITFLIX_Wiframe Project",
+            definition: "WITFLIX_Wiframe is one of the first projects I worked on during my software development journey. In this project, I used only HTML and CSS to design a simple media streaming platform that allows users to explore content. The project aimed to provide a user-friendly interface based on fundamental web design principles. This project helped me deepen my knowledge of HTML and CSS and enhance my basic web design skills.",
+            githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
+            appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
+            imageUrl: "Group 104.svg",
         },
     ],
     viewGit: "View on Github",
@@ -65,8 +72,9 @@ export const englishWords = {
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygunoztuna/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
-    witflixProjectTechnologies: ["html", "css", "vercel"],
+    personalProjectTechnologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
     pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
+    witflixProjectTechnologies: ["html", "css", "vercel"],
     programs: [
         { name: 'HTML', image: './skill boxes/html.svg' },
         { name: 'CSS', image: './skill boxes/css.svg' },
