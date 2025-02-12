@@ -49,6 +49,8 @@ export const turkishWords = {
             appLink: "https://personal-website-psi-three-79.vercel.app/",
             imageUrl: "Group 105.svg",
             technologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
+            bgColor: "bg-[#DDEEFE]",
+            darkbgColor: "dark:bg-[#2D3235]",
         },
         {
             title: "Pizza Projesi",
@@ -57,6 +59,8 @@ export const turkishWords = {
             appLink: "https://pizza-project-s8.vercel.app",
             imageUrl: "Group 103.svg",
             technologies: ["html", "css", "react", "vercel", "axios", "router"],
+            bgColor: "bg-[#D9F6F1]",
+            darkbgColor: "dark:bg-[#495351]",
         },
         {
             title: "WiTFLiX Wireframe Projesi",
@@ -65,6 +69,8 @@ export const turkishWords = {
             appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
             imageUrl: "Group 104.svg",
             technologies: ["html", "css", "vercel"],
+            bgColor: "bg-[#faebf9]",
+            darkbgColor: "dark:bg-[#3B3F43]",
         },
     ],
     viewGit: "Github'da Görüntüle",
