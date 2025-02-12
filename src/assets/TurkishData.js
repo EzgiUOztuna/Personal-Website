@@ -39,7 +39,7 @@ export const turkishWords = {
         value: "Frontend, Backend, UI",
     },
     aboutMe: "Hakkımda",
-    aboutMeParagraph: "Merhaba, ben Ezgi. Yazılım geliştirme ve teknolojiye olan tutkum, beni her zaman yeni projelere ilgi duymaya ve kullanıcı odaklı çözümler üretmeye teşvik etti. Geliştirdiğim projelerde, kullanıcı deneyimini ön planda tutarak, uygulamaların hem işlevsel hem de estetik açıdan etkili olmasını sağlıyorum. React, Node.js gibi teknolojilerle çeşitli web projelerinde yer aldım. Amacım, teknolojiyi kullanarak insanların hayatını daha kolay ve verimli hale getirecek projeler geliştirmektir.",
+    aboutMeParagraph: "Merhaba, ben Ezgi. Yazılım geliştirme ve teknolojiye olan tutkum, beni her zaman yeni projelere ilgi duymaya ve kullanıcı odaklı çözümler üretmeye teşvik etti. Geliştirdiğim projelerde, kullanıcı deneyimini ön planda tutarak, uygulamaların hem işlevsel hem de estetik açıdan etkili olmasını sağlıyorum. React, Javascript, Java, SQL gibi teknolojilerle çeşitli web projelerinde yer aldım. Amacım, teknolojiyi kullanarak insanların hayatını daha kolay ve verimli hale getirecek projeler geliştirmektir.",
     project_title: "Projeler",
     projects: [
         {
