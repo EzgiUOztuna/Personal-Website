@@ -40,14 +40,15 @@ export const turkishWords = {
     },
     aboutMe: "Hakkımda",
     aboutMeParagraph: "Merhaba, ben Ezgi. Yazılım geliştirme ve teknolojiye olan tutkum, beni her zaman yeni projelere ilgi duymaya ve kullanıcı odaklı çözümler üretmeye teşvik etti. Geliştirdiğim projelerde, kullanıcı deneyimini ön planda tutarak, uygulamaların hem işlevsel hem de estetik açıdan etkili olmasını sağlıyorum. React, Node.js gibi teknolojilerle çeşitli web projelerinde yer aldım. Amacım, teknolojiyi kullanarak insanların hayatını daha kolay ve verimli hale getirecek projeler geliştirmektir.",
-    projects: "Projeler",
-    project: [
+    project_title: "Projeler",
+    projects: [
         {
             title: "Kişisel Web Site Projesi",
             definition: "Kendi kişisel web sitemi oluşturarak profesyonel hayatımdaki bilgileri bir araya getirdim. Bu proje sırasında React.js, TailwindCSS ve Context API konularında becerilerimi geliştirme fırsatı buldum. Verileri bir dummy data kaynağından çektim ve siteye hem Türkçe hem İngilizce dil seçenekleri ekledim. Ayrıca, kullanıcı deneyimini geliştirmek için dark ve light mod özelliklerine de yer verdim.",
             githubLink: "https://github.com/EzgiUOztuna/Personal_Website",
             appLink: "https://personal-website-psi-three-79.vercel.app/",
             imageUrl: "Group 105.svg",
+            technologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
         },
         {
             title: "Pizza Projesi",
@@ -55,6 +56,7 @@ export const turkishWords = {
             githubLink: "https://github.com/EzgiUOztuna/PizzaProject-s8",
             appLink: "https://pizza-project-s8.vercel.app",
             imageUrl: "Group 103.svg",
+            technologies: ["html", "css", "react", "vercel", "axios", "router"],
         },
         {
             title: "WITFLIX_Wiframe Projesi",
@@ -62,6 +64,7 @@ export const turkishWords = {
             githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
             appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
             imageUrl: "Group 104.svg",
+            technologies: ["html", "css", "vercel"],
         },
     ],
     viewGit: "Github'da Görüntüle",

@@ -40,14 +40,15 @@ export const englishWords = {
     },
     aboutMe: "About me",
     aboutMeParagraph: "Hello, I'm Ezgi. My passion for software development and technology has always encouraged me to explore new projects and create user-centered solutions. In the projects I develop, I focus on user experience, ensuring that applications are both functional and aesthetically effective. I have worked on various web projects using technologies like React and Node.js. My goal is to develop projects that make people's lives easier and more efficient by using technology.",
-    projects: "Projects",
-    project: [
+    project_title: "Projects",
+    projects: [
         {
             title: "Personal Website Project",
             definition: "I created my personal website to bring together information about my professional life. During this project, I had the opportunity to enhance my skills in React.js, TailwindCSS, and Context API. I utilized dummy data as the content source and implemented both Turkish and English language options. Additionally, I included dark and light mode features to improve the user experience.",
             githubLink: "https://github.com/EzgiUOztuna/Personal_Website",
             appLink: "https://personal-website-psi-three-79.vercel.app/",
             imageUrl: "Group 105.svg",
+            technologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
         },
         {
             title: "Pizza Project",
@@ -55,6 +56,7 @@ export const englishWords = {
             githubLink: "https://github.com/EzgiUOztuna/PizzaProject-s8",
             appLink: "https://pizza-project-s8.vercel.app",
             imageUrl: "Group 103.svg",
+            technologies: ["html", "css", "react", "vercel", "axios", "router"],
         },
         {
             title: "WITFLIX_Wiframe Project",
@@ -62,6 +64,7 @@ export const englishWords = {
             githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
             appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
             imageUrl: "Group 104.svg",
+            technologies: ["html", "css", "vercel"],
         },
     ],
     viewGit: "View on Github",
@@ -72,9 +75,6 @@ export const englishWords = {
     personalBlogUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/ezgiuygunoztuna/",
     emailUrl: "mailto:ezgiuygn@gmail.com",
-    personalProjectTechnologies: ["react.js", "tailwindcss", "hooks", "context api", "dummy data", "vercel", "router"],
-    pizzaProjectTechnologies: ["html", "css", "react", "vercel", "axios", "router"],
-    witflixProjectTechnologies: ["html", "css", "vercel"],
     programs: [
         { name: 'HTML', image: './skill boxes/html.svg' },
         { name: 'CSS', image: './skill boxes/css.svg' },

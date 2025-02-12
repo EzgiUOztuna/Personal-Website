@@ -13,7 +13,7 @@ export default function Projects() {
                 <h1 className="text-center font-inter font-medium py-6 text-[1.5rem]
                                md:py-12 md:text-[2.25rem]
                                lg:py-12 lg:text-4xl
-                               xl:py-12 xl:text-4xl">{words.projects}</h1>
+                               xl:py-12 xl:text-4xl">{words.project_title}</h1>
 
 
                 <div className={`flex flex-row overflow-x-auto px-1
@@ -21,10 +21,7 @@ export default function Projects() {
                                  lg:gap-6 lg:px-5
                                  xl:gap-6 xl:justify-center xl:px-7 ${darkMode ? "dark:text-black" : ""}`}>
 
-
-
-
-                    {words.project.map((item, index) => (
+                    {words.projects.map((item, index) => (
                         <div className={`border-0 ${index === 0
                             ? (`bg-[#DDEEFE] ${darkMode ? "dark:bg-[#2D3235] text-white" : ""}`)
                             : (index == 1
@@ -41,44 +38,19 @@ export default function Projects() {
                             <p className="font-inter font-normal text-[0.95rem] pb-4 w-[21rem]
                                           lg:w-[22.5rem]
                                           xl:w-[22.5rem]">{item.definition}</p>
-                            <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
 
-                                {(item.title === "Personal Website Project" || item.title === "Personal Website Project") && (
-                                    <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
-                                        {words.personalProjectTechnologies && words.personalProjectTechnologies.map((tech, index) => (
-                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
-                                                                       lg:text-base
-                                                                       xl:text-base`}>
-                                                {tech}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
+                            {item.technologies?.length > 0 && (
+                                <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
+                                    {item.technologies.map((tech, techIndex) => (
+                                        <p key={techIndex} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
+                                        lg:text-base
+                                        xl:text-base`}>
+                                            {tech}
+                                        </p>
+                                    ))}
+                                </div>
+                            )}
 
-                                {(item.title === "Pizza Project" || item.title === "Pizza Projesi") && (
-                                    <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
-                                        {words.pizzaProjectTechnologies && words.pizzaProjectTechnologies.map((tech, index) => (
-                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
-                                                                       lg:text-base
-                                                                       xl:text-base`}>
-                                                {tech}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
-
-                                {(item.title === "WITFLIX_Wiframe Project" || item.title === "WITFLIX_Wiframe Projesi") && (
-                                    <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
-                                        {words.witflixProjectTechnologies && words.witflixProjectTechnologies.map((tech, index) => (
-                                            <p key={index} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
-                                                                       lg:text-base
-                                                                       xl:text-base`}>
-                                                {tech}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
                             <div className="flex justify-between font-inter font-semibold text-[1rem] mb-0 pt-6 text-left
                                             lg:text-[1.1rem] lg:mb-16
                                             xl:text-[1.1rem] xl:mb-16">
