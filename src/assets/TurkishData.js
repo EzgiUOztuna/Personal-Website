@@ -59,8 +59,8 @@ export const turkishWords = {
             technologies: ["html", "css", "react", "vercel", "axios", "router"],
         },
         {
-            title: "WITFLIX_Wiframe Projesi",
-            definition: "WITFLIX_Wiframe, yazılım geliştirme yolculuğumda yaptığım ilk projelerden biridir. Bu projede yalnızca HTML ve CSS kullanarak, kullanıcıların içerikleri keşfetmelerine olanak tanıyan basit bir medya akış platformu tasarladım. Proje, temel web tasarım prensiplerine dayanarak kullanıcı dostu bir arayüz sunmayı amaçladı. Bu proje, HTML ve CSS hakkında derinlemesine bilgi edinmeme ve temel web tasarımı becerilerimi geliştirmeme yardımcı oldu.",
+            title: "WiTFLiX Wireframe Projesi",
+            definition: "WiTFLiX Wireframe, yazılım geliştirme yolculuğumda yaptığım ilk projelerden biridir. Bu projede yalnızca HTML ve CSS kullanarak, kullanıcıların içerikleri keşfetmelerine olanak tanıyan basit bir medya akış platformu tasarladım. Proje, temel web tasarım prensiplerine dayanarak kullanıcı dostu bir arayüz sunmayı amaçladı. Bu proje, HTML ve CSS hakkında derinlemesine bilgi edinmeme ve temel web tasarımı becerilerimi geliştirmeme yardımcı oldu.",
             githubLink: "https://github.com/EzgiUOztuna/WIT1024_WITFLIX_Wiframe",
             appLink: "https://wit-1024-witflix-wiframe.vercel.app/",
             imageUrl: "Group 104.svg",

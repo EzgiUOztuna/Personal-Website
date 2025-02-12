@@ -7,6 +7,7 @@ export default function Projects() {
     const { darkMode } = useContext(DarkModeContext);
     const { words } = useContext(LanguageContext);
 
+
     return (
         <>
             <div className={`w-screen h-auto relative transition-all duration-300 block ${darkMode ? "dark:bg-[#484148] text-white" : ""}`}>
@@ -22,11 +23,12 @@ export default function Projects() {
                                  xl:gap-6 xl:justify-center xl:px-7 ${darkMode ? "dark:text-black" : ""}`}>
 
                     {words.projects.map((item, index) => (
+
                         <div className={`border-0 ${index === 0
                             ? (`bg-[#DDEEFE] ${darkMode ? "dark:bg-[#2D3235] text-white" : ""}`)
                             : (index == 1
-                                ? (`border-[#D9F6F1] bg-[#D9F6F1] ${darkMode ? "dark:bg-[#495351] text-white" : ""}`)
-                                : (`border-[#faebf9] bg-[#faebf9] ${darkMode ? "dark:bg-[#3B3F43] text-white" : ""}`))
+                                ? (`bg-[#D9F6F1] ${darkMode ? "dark:bg-[#495351] text-white" : ""}`)
+                                : (`bg-[#faebf9] ${darkMode ? "dark:bg-[#3B3F43] text-white" : ""}`))
                             } rounded-lg h-[38.2rem] mb-14 relative w-[23rem] p-5 mx-2
                             lg:w-[27rem] lg:p-8 lg:mb-24 lg:h-[42rem]
                             xl:w-[27rem] xl:p-8 xl:mb-24 xl:h-[42rem]`}
