@@ -36,7 +36,7 @@ export const englishWords = {
     },
     role: {
         label: "Preferred Role:",
-        value: "Frontend, UI",
+        value: "Frontend, Backend, UI",
     },
     aboutMe: "About me",
     aboutMeParagraph: "Hello, I'm Ezgi. My passion for software development and technology has always encouraged me to explore new projects and create user-centered solutions. In the projects I develop, I focus on user experience, ensuring that applications are both functional and aesthetically effective. I have worked on various web projects using technologies like React and Node.js. My goal is to develop projects that make people's lives easier and more efficient by using technology.",
