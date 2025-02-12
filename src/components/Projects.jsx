@@ -20,7 +20,7 @@ export default function Projects() {
                 <div className={`flex flex-row overflow-x-auto px-1
                                  md:gap-2 md:px-3
                                  lg:gap-6 lg:px-5
-                                 xl:gap-6 xl:justify-center xl:px-7 ${darkMode ? "dark:text-black" : ""}`}>
+                                 xl:gap-2 xl:justify-center xl:px-7  ${darkMode ? "dark:text-black" : ""}`}>
 
                     {words.projects.map((item, index) => (
 
@@ -50,7 +50,7 @@ export default function Projects() {
                                 </div>
                             )}
 
-                            <div className="flex justify-between font-inter font-semibold text-[1rem] mb-0 pt-6 text-left
+                            <div className="flex justify-between font-inter font-semibold text-[1rem] mb-0 pt-4 text-left
                                             lg:text-[1.1rem] lg:mb-16
                                             xl:text-[1.1rem] xl:mb-16">
                                 <a href={item.githubLink} target="_blank">
