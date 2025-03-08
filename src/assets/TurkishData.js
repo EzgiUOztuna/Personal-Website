@@ -88,6 +88,7 @@ export const turkishWords = {
         { name: 'HTML', image: './skill boxes/html.svg' },
         { name: 'CSS', image: './skill boxes/css.svg' },
         { name: 'JAVASCRIPT', image: './skill boxes/javascript.svg' },
+        { name: 'JQUERY', image: './skill boxes/jquery.svg' },
         { name: 'REACT', image: './skill boxes/react.svg' },
         { name: 'REDUX', image: './skill boxes/redux.svg' },
         { name: 'VS CODE', image: './skill boxes/vscode.svg' },
