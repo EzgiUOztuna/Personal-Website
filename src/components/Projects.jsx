@@ -17,10 +17,10 @@ export default function Projects() {
                                xl:py-12 xl:text-4xl">{words.project_title}</h1>
 
 
-                <div className={`flex flex-row overflow-x-auto px-1
-                                 md:gap-2 md:px-3
-                                 lg:gap-6 lg:px-5
-                                 xl:gap-2 xl:justify-center xl:px-7  ${darkMode ? "dark:text-black" : ""}`}>
+                <div className={`flex flex-row overflow-x-auto px-1 
+                                 md:gap-2 md:px-3 
+                                 lg:gap-6 lg:px-5 
+                                 xl:gap-0 xl:px-7 xl:justify-evenly ${darkMode ? "dark:text-black" : ""}`}>
 
                     {words.projects.map((item, index) => (
 
