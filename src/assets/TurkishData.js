@@ -107,5 +107,7 @@ export const turkishWords = {
         { name: 'JAVA', image: './skill boxes/java.svg' },
         { name: 'SPRING BOOT', image: './skill boxes/springboot.svg' },
         { name: 'PostgreSQL', image: './skill boxes/postgresql.svg' },
+        { name: 'DBEAVER', image: './skill boxes/dbeaver.svg' },
+        { name: 'POSTMAN', image: './skill boxes/postman.svg' },
     ],
 };
