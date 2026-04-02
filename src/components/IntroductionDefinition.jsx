@@ -21,9 +21,9 @@ function IntroductionDefinition() {
                               lg:w-[38.25rem] lg:ml-0 
                               xl:w-[38.25rem] xl:ml-0">{words.title}</p>
                 <p className="w-[12.5rem] ml-20 
-                              md:w-[29rem] md:ml-0
-                              lg:w-[38.25rem] lg:ml-0 
-                              xl:w-[38.25rem] xl:ml-0">{words.definition}</p>
+                              md:w-[28.5rem] md:ml-0
+                              lg:w-[37.9rem] lg:ml-0 
+                              xl:w-[37.9rem] xl:ml-0">{words.definition}</p>
                 <div>
                     <div className="flex gap-2.5 h-[2.18rem] items-center pt-9 pb-4 ml-20
                                     md:gap-4 md:h-[2.18rem] md:pt-16 md:pb-6 md:ml-0
