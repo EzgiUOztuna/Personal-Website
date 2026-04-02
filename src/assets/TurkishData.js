@@ -5,8 +5,8 @@ export const turkishWords = {
     },
     translate: "<span style='color: #e92577;'>TÜRKÇE</span>'YE ÇEVİR",
     title: "Merhaba! 👋",
-    definition: "Ben Ezgi. Ben bir frontend geliştiricisiyim. Sağlam ve ölçeklenebilir ön uç ürünler geliştirebilirim. Tanışalım!",
-    email: `Şu anda <span style="color: #AF0C48">Freelance</span> olarak <span style="color: #AF0C48">UX, UI ve Web Tasarımı</span> projeleri üzerinde çalışıyorum. Beni ekibinize davet edin <span>&#8594;</span> <a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
+    definition: "Ben Ezgi. Test Otomasyon Mühendisiyim ve geliştirme becerilerine sahibim. Güvenilir otomatik testler tasarlıyor ve ölçeklenebilir, kullanıcı dostu web uygulamaları geliştiriyorum. Tanışalım!",
+    email: `Şu anda <span style="color: #AF0C48">Freelance</span> olarak <span style="color: #AF0C48">UX, UI, Web Tasarımı ve Yazılım Testi & Test Otomasyonu</span> projeleri üzerinde çalışıyorum. Beni ekibinize davet edin <span>&#8594;</span> <a style="color: #AF0C48; text-decoration: underline" href="mailto:ezgiuygn@gmail.com" target="_blank">ezgiuygn@gmail.com</a>`,
     socialMedia: [
         {
             platform: "Linkedin",
@@ -19,7 +19,7 @@ export const turkishWords = {
             iconClass: "fa-brands fa-github fa-xs",
         },
     ],
-    skills: "Yetenekler",
+    skills: "Yazılım & Test Becerileri",
     profile: "Profil",
     basicInformation: "Ana Bilgiler",
     birthDate: {
@@ -36,12 +36,22 @@ export const turkishWords = {
     },
     role: {
         label: "Tercih Ettiği Rol:",
-        value: "Frontend, Backend, UI",
+        value: "Yazılım Test Otomasyonu, QA, Frontend",
     },
     aboutMe: "Hakkımda",
-    aboutMeParagraph: "Merhaba, ben Ezgi. Yazılım geliştirme ve teknolojiye olan tutkum, beni her zaman yeni projelere ilgi duymaya ve kullanıcı odaklı çözümler üretmeye teşvik etti. Geliştirdiğim projelerde, kullanıcı deneyimini ön planda tutarak, uygulamaların hem işlevsel hem de estetik açıdan etkili olmasını sağlıyorum. React, Javascript, Java, SQL gibi teknolojilerle çeşitli web projelerinde yer aldım. Amacım, teknolojiyi kullanarak insanların hayatını daha kolay ve verimli hale getirecek projeler geliştirmektir.",
-    project_title: "Projeler",
+    aboutMeParagraph: "Merhaba, ben Ezgi. Yazılım geliştirme ve teknolojiye olan ilgim, beni yazılım kalitesi ve test otomasyonuna yönlendirdi; güvenilir ve kullanıcı odaklı çözümler geliştirmeye odaklanıyorum. JavaScript, React, Java ve SQL gibi teknolojilerle çeşitli web projeleri geliştirdim. Aynı zamanda Playwright, WebdriverIO ve Postman gibi araçlarla test otomasyonu ile API ve UI testleri konusundaki yetkinliklerimi geliştirdim. Geliştirdiğim projelerde hem fonksiyonelliği hem de kullanıcı deneyimini ön planda tutarak, uygulamaların verimli, ölçeklenebilir ve yüksek kaliteli olmasını hedefliyorum. Amacım, insanların hayatını kolaylaştıran çözümler üretirken Test Otomasyon Mühendisi olarak etkili projelere katkı sağlamak.",
+    project_title: "Yazılım & Test Projeleri",
     projects: [
+        {
+            title: "Diagnostik Klinik Uygulaması",
+            definition: "UI ve API doğrulaması için 270+ manuel ve otomatik test senaryosu tasarladım ve yürüttüm. Playwright kullanarak UI otomasyon testleri geliştirdim ve Postman ile API testleri gerçekleştirdim. Stabil sürümler sağlamak için Smoke ve Regression test paketleri oluşturdum. Jira üzerinden hataları raporlayarak geliştirme ekipleriyle iş birliği yaptım. Test sonuçlarını analiz ederek test kapsamını iyileştirdim.",
+            githubLink: "",
+            appLink: "",
+            imageUrl: "Group 107.svg",
+            skills: ["playwright", "postman", "jira", "test senaryosu tasarımı", "UI testi", "API testi", "hata raporlama"],
+            bgColor: "bg-[#F6D7E3]",
+            darkbgColor: "dark:bg-[#3B3F43]",
+        },
         {
             title: "Kişisel Web Site Projesi",
             definition: "Kendi kişisel web sitemi oluşturarak profesyonel hayatımdaki bilgileri bir araya getirdim. Bu proje sırasında React.js, TailwindCSS ve Context API konularında becerilerimi geliştirme fırsatı buldum. Verileri bir dummy data kaynağından çektim ve siteye hem Türkçe hem İngilizce dil seçenekleri ekledim. Ayrıca, kullanıcı deneyimini geliştirmek için dark ve light mod özelliklerine de yer verdim.",
@@ -98,7 +108,7 @@ export const turkishWords = {
         { name: 'HTML', image: './skill boxes/html.svg' },
         { name: 'CSS', image: './skill boxes/css.svg' },
         { name: 'JAVASCRIPT', image: './skill boxes/javascript.svg' },
-        { name: 'JQUERY', image: './skill boxes/jquery.svg' },
+        //{ name: 'JQUERY', image: './skill boxes/jquery.svg' },
         { name: 'REACT', image: './skill boxes/react.svg' },
         { name: 'REDUX', image: './skill boxes/redux.svg' },
         { name: 'NODE.JS', image: './skill boxes/node.svg' },
@@ -108,7 +118,14 @@ export const turkishWords = {
         { name: 'JAVA', image: './skill boxes/java.svg' },
         { name: 'SPRING BOOT', image: './skill boxes/springboot.svg' },
         { name: 'PostgreSQL', image: './skill boxes/postgresql.svg' },
-        { name: 'DBEAVER', image: './skill boxes/dbeaver.svg' },
+        //{ name: 'DBEAVER', image: './skill boxes/dbeaver.svg' },
         { name: 'POSTMAN', image: './skill boxes/postman.svg' },
+        { name: 'WebdriverIO', image: './skill boxes/webdriverio.svg' },
+        { name: 'PLAYWRIGHT', image: './skill boxes/playwright.svg' },
+        { name: 'CYPRESS', image: './skill boxes/cypress.svg' },
+        { name: 'MOCHA', image: './skill boxes/mocha.svg' },
+        { name: 'CUCUMBER', image: './skill boxes/cucumber.svg' },
+        { name: 'CHAI', image: './skill boxes/chai.svg' },
+
     ],
 };
