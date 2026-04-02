@@ -38,13 +38,13 @@ export default function Projects() {
                                           lg:w-[22.5rem]
                                           xl:w-[22.5rem]">{item.definition}</p>
 
-                            {item.technologies?.length > 0 && (
+                            {item.skills?.length > 0 && (
                                 <div className="flex gap-2 flex-wrap font-playfair font-bold justify-start">
-                                    {item.technologies.map((tech, techIndex) => (
-                                        <p key={techIndex} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
+                                    {item.skills.map((skill, skillIndex) => (
+                                        <p key={skillIndex} className={`border-0 border-white rounded-full px-4 bg-white text-[0.8rem] ${darkMode ? "dark:bg-[#525252] text-white" : ""}
                                         lg:text-base
                                         xl:text-base`}>
-                                            {tech}
+                                            {skill}
                                         </p>
                                     ))}
                                 </div>
@@ -53,11 +53,16 @@ export default function Projects() {
                             <div className="flex justify-between font-inter font-semibold text-[1rem] mb-0 pt-4 text-left
                                             lg:text-[1.1rem] lg:mb-16
                                             xl:text-[1.1rem] xl:mb-16">
-                                <a href={item.githubLink} target="_blank">
-                                    <button>{words.viewGit}</button></a>
-
-                                <a href={item.appLink} target="_blank">
-                                    <button>{words.goApp}<span> &#8594;</span></button></a>
+                                {item.githubLink && (
+                                    <a href={item.githubLink} target="_blank">
+                                        <button>{words.viewGit}</button>
+                                    </a>
+                                )}
+                                {item.appLink && (
+                                    <a href={item.appLink} target="_blank">
+                                        <button>{words.goApp}<span> &#8594;</span></button>
+                                    </a>
+                                )}
                             </div>
                             <img className="absolute top-[27rem] left-0
                                             lg:top-[28.85rem]
